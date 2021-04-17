@@ -10,7 +10,71 @@
 
 1.  **Operating system logs** are created on devices such as `Linux and Windows` systems. 
      Example:` log2.txt` shows linux logs as there are references to `etc/shadow` and adding users etc. and `log4.txt` is a windows system log file
+
+```
+SAMPLE LINUX log 
+
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:26:39 PROD-POS-003  groupadd[114]: group added to /etc/gshadow: name=webalizer
+","2020-01-13T17:26:39.000+0000",,,,,,,,17,13,26,july,39,monday,2020,local,"PROD-POS-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-POS-003",,main,,,,2,,,webalizer,,,,,,114,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-POS-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:26:03 PROD-MFS-006  groupadd[145]: group added to /etc/group: name=usrpqr
+","2020-01-13T17:26:03.000+0000",,,,,,,,17,13,26,july,3,monday,2020,local,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-006",,main,,,,2,,,usrpqr,,,,,,145,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+
+
    
+   ```
+SAMPLE WINDOWS login
+
+   ubject:
+	Security ID:		Domain_D\user_d
+	Account Name:		user_d
+	Account Domain:		Domain_D
+	Logon ID:		0x3EC3
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeSecurityPrivilege,,,,,233354340,,,,,,"Domain_D\user_d",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Special Logon",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:56 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=PROD-POS-005
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=233354340
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_D\user_d
+	Account Name:		user_d
+	Account Domain:		Domain_D
+	Logon ID:		0x3EC3
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilige
+","2020-01-13T17:41:56.000+0000",success,"win:unknown","Special privileges assigned to new logon.
+```
 
    > Things to watch for in operating logs
    - an unauthorized user attempts to view privileged data, such as a company payroll file.
