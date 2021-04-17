@@ -32,3 +32,9 @@
       - Endpoint events: For example, a `user accidentally downloads malware` onto their laptop from a phishing email.
 
       - IDS signature events: For example, a packet with an `illegal TCP flag` combination is identified by an IDS. TCP flags, such as a SYN packet with the FIN bit set, are illegal and shouldn’t be seen on any network
+
+Logs vary in format: A few examples:
+
+  - Log 1: `User TJones Successfully Authenticated to 10.182.12.35 from client 43.10.8.22` 
+
+  - Log 2: `43.182.12.35 New Client Connection 84.10.8.22  on account: PSmith: Success`
