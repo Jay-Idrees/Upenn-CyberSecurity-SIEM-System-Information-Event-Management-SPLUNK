@@ -29,6 +29,6 @@
 4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`. 
   
     Security events that can be identified by these logs include:
-      - Endpoint events: For example, a user accidentally downloads malware onto their laptop from a phishing email.
+      - Endpoint events: For example, a `user accidentally downloads malware` onto their laptop from a phishing email.
 
-      - IDS signature events: For example, a packet with an illegal TCP flag combination is identified by an IDS.
+      - IDS signature events: For example, a packet with an `illegal TCP flag` combination is identified by an IDS. TCP flags, such as a SYN packet with the FIN bit set, are illegal and shouldn’t be seen on any network
