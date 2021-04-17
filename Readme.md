@@ -9,24 +9,40 @@
 
 
 1.  **Operating system logs** are created on devices such as `Linux and Windows` systems. 
+     Example:` log2.txt` shows linux logs as there are references to `etc/shadow` and adding users etc. and `log4.txt` is a windows system log file
    
-   -  For example, an unauthorized user attempts to view privileged data, such as a company payroll file.
+
+   > Things to watch for in operating logs
+   - an unauthorized user attempts to view privileged data, such as a company payroll file.
 
      - Security permissions events: For example, a user attempts to give themselves permissions to view and edit a privileged file.
     
-2. **Application logs** are created by devices such as `Apache and IIS` (Internet Information Services) servers.
+2. **Application logs** are created by devices such as `Apache and IIS` (Internet Information Services) servers or webserver logs. Example: `log5.txt` gives login/logout activity by a usename
       
+```
+DATE            IP              USER    ACTIVITY
+01/13/19	42.34.65.34	billy	Login
+01/13/19	42.34.65.34	billy	Add Items to Cart
+01/13/19	42.34.65.34	billy	Checkout
+01/13/19	42.34.65.34	billy	Search
+01/13/19	42.34.65.34	billy	Logout
+```
+
+
+
+    > Things to watch for in application logs
       For example, a `brute force attempt` to log into an administrative account on a web application.
       
       - Fraud events: For example, a user on a financial application attempts to transfer a large sum of funds to a suspicious external account.
   
 3. **Networking device logs** are created on devices such as `routers, switches, and DHCP/DNS servers`. (DHCP-dynamic host configuration protocol- ) 
     
+    > Things to watch for networking device logs
     - Administrative events: For example, a network administrator accidentally opens a `port allowing unauthorized traffic` into a network.
     
     - Network security events: For example, a `DHCP starvation attack` occurs in which the DHCP server receives thousands of requests in a short period of time, `consuming all available IP addresses`.
     
-4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`.  Example: [IDS Fortniet](logfiles\log1.txt)
+4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`.  Example: `log1.txt`, logs documenting user activity
   
     Security events that can be identified by these logs include:
       - Endpoint events: For example, a `user accidentally downloads malware` onto their laptop from a phishing email.
