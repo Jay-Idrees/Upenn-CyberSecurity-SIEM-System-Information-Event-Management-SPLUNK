@@ -5,7 +5,7 @@
 
 ## Types of Logs
 
-- Logs contain entties that represent sepecific events occurring on a network or device
+- Logs contain entties that represent sepecific events occurring on a network or device. **log aggregation** is when the logs are gathered together from multiple sources
 
 
 1.  **Operating system logs** are created on devices such as `Linux and Windows` systems. 
