@@ -1,0 +1,2301 @@
+Subject:
+	Security ID:		Domain_D\user_d
+	Account Name:		user_d
+	Account Domain:		Domain_D
+	Logon ID:		0x3EC3
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeSecurityPrivilege,,,,,233354340,,,,,,"Domain_D\user_d",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Special Logon",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:56 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=PROD-POS-005
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=233354340
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_D\user_d
+	Account Name:		user_d
+	Account Domain:		Domain_D
+	Logon ID:		0x3EC3
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+","2020-01-13T17:41:56.000+0000",success,"win:unknown","Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_D\user_d
+	Account Name:		user_d
+	Account Domain:		Domain_D
+	Logon ID:		0x3EC3
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",,"Special Logon",,,,17,13,41,march,56,monday,2020,local,"PROD-POS-005",,,,,,,,,false,,,,"Domain_D","PROD-POS-005",,untrust,,false,false,false,,"PROD-POS-005",,,,,,,,,false,,,,"PROD-POS-005",,untrust,,false,false,false,,233354340,"windows_special_privileges wineventlog_security wineventlog_windows winsec","PROD-POS-005",233354340,,main,,,,26,,,"user_d","Domain_D\user_d","Domain_D\",,"Special privileges assigned to new logon",,WinEventLog,,,,,"Manage auditing and security log
+Take ownership of files or other objects
+Load and unload device drivers
+Back up files and directories
+Restore files and directories
+Debug programs
+Modify firmware environment values
+Impersonate a Client After Authentication","SeSecurityPrivilege
+SeTakeOwnershipPrivilege
+SeLoadDriverPrivilege
+SeBackupPrivilege
+SeRestorePrivilege
+SeDebugPrivilege
+SeSystemEnvironmentPrivilege
+SeImpersonatePrivilege",,Windows,,,"//_::_==___.====--=_===_=_____.:t_:tt\t_:ttt_:ttt_",,,,0x3EC3,informational,0,,,"Special privileges assigned to new logon",4672,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_D",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Special privileges assigned to new logon",failure,,"audit
+authentication
+os
+privileged
+security
+success
+windows",,,,success,,,,,"authentication
+os
+privileged
+security
+windows",,audit,,,,,,,,,,,,,22,0,,"user_d",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,"SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",
+,"Domain_E",,"user_i",,,,,,,,,,,,,,,,,,,,,"ACME-004",,,,,,,,,"-",4689,"A process has exited",0,0xBE489B,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x5F25,,,,,,,,,"A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_i
+	Account Name:		user_i
+	Account Domain:		Domain_E
+	Logon ID:		0x5F25
+
+Process Information:
+	Process ID:	0xE5E3
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0xBE489B",,,,,,,,,,,,,,,Info,,,,,,,,,,,,0xE5E3,"C:\Windows\System32\example_a.exe",,,547076847,,,,,,"Domain_E\user_i",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Process Termination",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:55 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=ACME-004
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=547076847
+Keywords=Audit Success
+Message=A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_i
+	Account Name:		user_i
+	Account Domain:		Domain_E
+	Logon ID:		0x5F25
+
+Process Information:
+	Process ID:	0xE5E3
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0xBE489B
+","2020-01-13T17:41:55.000+0000",success,"win:unknown","A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_i
+	Account Name:		user_i
+	Account Domain:		Domain_E
+	Logon ID:		0x5F25
+
+Process Information:
+	Process ID:	0xE5E3
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0xBE489B",,"Process Termination",,,,17,13,41,march,55,monday,2020,local,"ACME-004",,,,,,,,,false,,,,"Domain_E","ACME-004",,untrust,,false,false,false,,"ACME-004",,,,,,,,,false,,,,"ACME-004",,untrust,,false,false,false,,547076847,"windows_process_exit wineventlog_security wineventlog_windows winsec","ACME-004",547076847,,main,,,,24,,,"user_i","Domain_E\user_i","Domain_E\",,"A process has exited",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=___.:t_:tt\t_:ttt_:ttt_:tt",,,,0x5F25,informational,0,,,"A process has exited",4689,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"A process has exited",failure,,"execute
+os
+process
+security
+stop
+success
+windows",,,,success,,,,,"execute
+os
+process
+security
+stop
+windows",,,,,,,,,,,,,,,22,0,,"user_i",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_D
+Domain_D",,"user_n
+user_c",,,,,,,,,,,,,"Account Management",,,,,,,,"SE-002",,,,,,,,,"-",4743,"A computer account was deleted",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x4D76,,,,,,,,,"A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_D\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_D
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_D\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_D
+
+Additional Information:
+	Privileges:	SeAuditPrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeAuditPrivilege,,,,,649350098,,,,,,"Domain_D\user_n
+Domain_D\user_c",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Computer Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:55 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4743
+EventType=0
+Type=Information
+ComputerName=SE-002
+TaskCategory=Computer Account Management
+OpCode=Info
+RecordNumber=649350098
+Keywords=Audit Success
+Message=A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_D\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_D
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_D\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_D
+
+Additional Information:
+	Privileges:	SeAuditPrivilege
+","2020-01-13T17:41:55.000+0000",deleted,"win:unknown","A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_D\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_D
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_D\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_D
+
+Additional Information:
+	Privileges:	SeAuditPrivilege",,"Computer Account Management",user,,,17,13,41,march,55,monday,2020,local,"SE-002",,,,,,,,,false,,,,"Domain_D","SE-002",,untrust,,false,false,false,,"SE-002",,,,,,,,,false,,,,"SE-002",,untrust,,false,false,false,,649350098,"windows_account_deleted windows_account_management wineventlog_security wineventlog_windows winsec","SE-002",649350098,,main,,,,27,,,"user_n
+user_c","Domain_D\user_n
+Domain_D\user_c","Domain_D\",deleted,"A computer account was deleted",,WinEventLog,user,,,,"Generate security audits",SeAuditPrivilege,,Windows,,,"//_::_==___.====-=__===_=____.:t_:tt\t_:ttt_:ttt_:",,,,0x4D76,informational,0,,,"A computer account was deleted",4743,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_D",,,,,,,,,,"user_n",,,,,,,,,,,,,,,,,false,,,,,success,,"A computer account was deleted",failure,"Account Management","account
+audit
+change
+delete
+management
+os
+security
+windows",,,,,,,,,"account
+change
+delete
+management
+os
+security
+windows",,audit,,,,,,,,,,,,,22,0,,"user_c",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,SeAuditPrivilege,
+,"Domain_B",,"user_c",,,,,,,,,,,,,,,,,,,,,"ACME-001",,,,,,,,,"-",1102,"The audit log was cleared",4,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x5FC9,,,,,,,,,"The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_B
+	Logon ID:		0x5FC9",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,701240788,,,,,,"Domain_B\user_c",,,"Microsoft-Windows-Eventlog",,,,,,,,,,,,,,,,,"Log clear",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:50 PM
+LogName=Security
+SourceName=Microsoft-Windows-Eventlog
+EventCode=1102
+EventType=4
+Type=Information
+ComputerName=ACME-001
+TaskCategory=Log clear
+OpCode=Info
+RecordNumber=701240788
+Keywords=Audit Success
+Message=The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_B
+	Logon ID:		0x5FC9
+","2020-01-13T17:41:50.000+0000",cleared,"win:unknown","The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_B
+	Logon ID:		0x5FC9",,"Log clear",audit,,,17,13,41,march,50,monday,2020,local,"ACME-001",,,,,,,,,false,,,,"Domain_B","ACME-001",,untrust,,false,false,false,,"ACME-001",,,,,,,,,false,,,,"ACME-001",,untrust,,false,false,false,,701240788,"windows_audit_log_cleared wineventlog_security wineventlog_windows winsec","ACME-001",701240788,,main,,,,18,,,"user_c","Domain_B\user_c","Domain_B\",,"The audit log was cleared",,WinEventLog,audit,,,,,,,Windows,,,"//_::_==--====-=_===_=____.:t_:tt\t_:ttt_:ttt_:tt",,,,0x5FC9,informational,4,,,"The audit log was cleared",1102,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"The audit log was cleared",failure,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,,,,,,,22,0,,"user_c",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+SeServiceLogonRight,"Domain_C",,"PROD-POS-004
+Domain_C\user_g",,,,,,,,,,,,,,,,,,,,,"PROD-POS-004",,,,,,,,,"-",4718,"System security access was removed from an account",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0xEB5F,,,,,,,,,"System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_C\SYSTEM
+	Account Name:		PROD-POS-004
+	Account Domain:		Domain_C
+	Logon ID:		0xEB5F
+
+Account Modified:
+	Account Name:		Domain_C\user_g
+
+Access Removed:
+	Access Right:		SeServiceLogonRight",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,62811596,,,,,,"Domain_C\SYSTEM",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:50 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4718
+EventType=0
+Type=Information
+ComputerName=PROD-POS-004
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=62811596
+Keywords=Audit Success
+Message=System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_C\SYSTEM
+	Account Name:		PROD-POS-004
+	Account Domain:		Domain_C
+	Logon ID:		0xEB5F
+
+Account Modified:
+	Account Name:		Domain_C\user_g
+
+Access Removed:
+	Access Right:		SeServiceLogonRight
+","2020-01-13T17:41:50.000+0000",success,"win:unknown","System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_C\SYSTEM
+	Account Name:		PROD-POS-004
+	Account Domain:		Domain_C
+	Logon ID:		0xEB5F
+
+Account Modified:
+	Account Name:		Domain_C\user_g
+
+Access Removed:
+	Access Right:		SeServiceLogonRight",,"Authentication Policy Change",,,,17,13,41,march,50,monday,2020,local,"PROD-POS-004",,,,,,,,,false,,,,"Domain_C","PROD-POS-004",,untrust,,false,false,false,,"PROD-POS-004",,,,,,,,,false,,,,"PROD-POS-004",,untrust,,false,false,false,,62811596,"windows_security_access_removed wineventlog_security wineventlog_windows winsec","PROD-POS-004",62811596,,main,,,,25,,,"PROD-POS-004
+Domain_C\user_g","Domain_C\SYSTEM","Domain_C\",,"System security access was removed from an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====--=__===_=_______.:t_:tt\t_:tt--t_",,,,0xEB5F,informational,0,,,"System security access was removed from an account",4718,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,"PROD-POS-004",,,,,,,,,,,,,,,,,false,,,,,success,,"System security access was removed from an account",failure,,"access
+account
+authorization
+change
+delete
+os
+security
+success
+windows",,,,success,,,,,"access
+account
+authorization
+change
+delete
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"Domain_C\user_g",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_B",,"user_e
+user_c",,,,,,,,"BUSDEV-003",,,,,"Account Management",,,,,,,,"BUSDEV-003",,,,,,,,,"-",4740,"A user account was locked out",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x0452,,,,,,,,,"A user account was locked out. 
+Subject: 
+	Security ID: Domain_B\user_e 
+	Account Name: user_e
+	Account Domain: Domain_B
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_B\user_c 
+	Account Name: user_c
+Additional Information: 
+	Caller Computer Name: BUSDEV-003",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,78020668,,,,,,"Domain_B\user_e
+Domain_B\user_c",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:47 PM 
+LogName=Security 
+SourceName=Microsoft Windows security auditing.
+EventCode=4740 
+EventType=0 
+Type=Information
+ComputerName=BUSDEV-003 
+TaskCategory=User Account Management
+OpCode=Info 
+RecordNumber=78020668
+Keywords=Audit Success
+Message=A user account was locked out. 
+Subject: 
+	Security ID: Domain_B\user_e 
+	Account Name: user_e
+	Account Domain: Domain_B
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_B\user_c 
+	Account Name: user_c
+Additional Information: 
+	Caller Computer Name: BUSDEV-003
+","2020-01-13T17:41:47.000+0000",modified,"win:unknown","A user account was locked out. 
+Subject: 
+	Security ID: Domain_B\user_e 
+	Account Name: user_e
+	Account Domain: Domain_B
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_B\user_c 
+	Account Name: user_c
+Additional Information: 
+	Caller Computer Name: BUSDEV-003",,"User Account Management",user,,,17,13,41,march,47,monday,2020,local,"BUSDEV-003",,,,,,,,,false,,,,"Domain_B","BUSDEV-003",,untrust,,false,false,false,,"BUSDEV-003",,,,,,,,,false,,,,"BUSDEV-003 ",,untrust,,false,false,false,,78020668,"windows_account_lockout windows_account_management wineventlog_security wineventlog_windows winsec","BUSDEV-003 ",78020668,,main,,,,23,,,"user_e
+user_c","Domain_B\user_e
+Domain_B\user_c","Domain_B\","locked out","A user account was locked out",,WinEventLog,user,,,,,,,Windows,,,"//_::__=_=___.=_=_==-_=__=_==_=_____._:_t_:_\_t_:_",,,lockout,0x0452,informational,0,,,"A user account was locked out",4740,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B\user_e
+Domain_B","BUSDEV-003",,,,,,,,,"user_e",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was locked out",failure,"Account Management","account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,"account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_c",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_C
+Domain_C",,"user_m
+user_m",,,,,,,,,,,,,"Account Management",,,,,,,,"SE-001",,,,,,,,,"-",4726,"A user account was deleted",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x46BA,,,,,,,,,"A user account was deleted.
+
+Subject:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+	Logon ID:		0x46BA
+
+Target Account:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+
+Additional Information:
+	Privileges	-",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,728947336,,,,,,"Domain_C\user_m
+Domain_C\user_m",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:46 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4726
+EventType=0
+Type=Information
+ComputerName=SE-001
+TaskCategory=User Account Management
+OpCode=Info
+RecordNumber=728947336
+Keywords=Audit Success
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+	Logon ID:		0x46BA
+
+Target Account:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+
+Additional Information:
+	Privileges	-
+","2020-01-13T17:41:46.000+0000",deleted,"win:unknown","A user account was deleted.
+
+Subject:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+	Logon ID:		0x46BA
+
+Target Account:
+	Security ID:		Domain_C\user_m
+	Account Name:		user_m
+	Account Domain:		Domain_C
+
+Additional Information:
+	Privileges	-",,"User Account Management",user,,,17,13,41,march,46,monday,2020,local,"SE-001",,,,,,,,,false,,,,"Domain_C","SE-001",,untrust,,false,false,false,,"SE-001",,,,,,,,,false,,,,"SE-001",,untrust,,false,false,false,,728947336,"windows_account_deleted windows_account_management wineventlog_security wineventlog_windows winsec","SE-001",728947336,,main,,,,27,,,"user_m
+user_m","Domain_C\user_m
+Domain_C\user_m","Domain_C\",deleted,"A user account was deleted",,WinEventLog,user,,,,,,,Windows,,,"//_::_==___.====-=__===_=____.:t_:tt\t_:ttt_:ttt_:",,,,0x46BA,informational,0,,,"A user account was deleted",4726,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,"user_m",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was deleted",failure,"Account Management","account
+change
+delete
+management
+os
+security
+windows",,,,,,,,,"account
+change
+delete
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_m",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_E",,"user_a",,,,,,,,,,,,,,,,,,,,,"ACME-005",,,,,,,,,"-",4689,"A process has exited",0,0x916D01,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x6C10,,,,,,,,,"A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_a
+	Account Name:		user_a
+	Account Domain:		Domain_E
+	Logon ID:		0x6C10
+
+Process Information:
+	Process ID:	0x4401
+	Process Name:	C:\Windows\System32\example_d.exe
+	Exit Status:	0x916D01",,,,,,,,,,,,,,,Info,,,,,,,,,,,,0x4401,"C:\Windows\System32\example_d.exe",,,283644238,,,,,,"Domain_E\user_a",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Process Termination",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:45 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=ACME-005
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=283644238
+Keywords=Audit Success
+Message=A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_a
+	Account Name:		user_a
+	Account Domain:		Domain_E
+	Logon ID:		0x6C10
+
+Process Information:
+	Process ID:	0x4401
+	Process Name:	C:\Windows\System32\example_d.exe
+	Exit Status:	0x916D01
+","2020-01-13T17:41:45.000+0000",success,"win:unknown","A process has exited.
+
+Subject:
+	Security ID:		Domain_E\user_a
+	Account Name:		user_a
+	Account Domain:		Domain_E
+	Logon ID:		0x6C10
+
+Process Information:
+	Process ID:	0x4401
+	Process Name:	C:\Windows\System32\example_d.exe
+	Exit Status:	0x916D01",,"Process Termination",,,,17,13,41,march,45,monday,2020,local,"ACME-005",,,,,,,,,false,,,,"Domain_E","ACME-005",,untrust,,false,false,false,,"ACME-005",,,,,,,,,false,,,,"ACME-005",,untrust,,false,false,false,,283644238,"windows_process_exit wineventlog_security wineventlog_windows winsec","ACME-005",283644238,,main,,,,24,,,"user_a","Domain_E\user_a","Domain_E\",,"A process has exited",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=___.:t_:tt\t_:ttt_:ttt_:tt",,,,0x6C10,informational,0,,,"A process has exited",4689,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"A process has exited",failure,,"execute
+os
+process
+security
+stop
+success
+windows",,,,success,,,,,"execute
+os
+process
+security
+stop
+windows",,,,,,,,,,,,,,,22,0,,"user_a",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_C
+Domain_C","2020-01-13 17:41:43 PM","user_m
+user_l",,,,"server_1/coumputer_a",,,,,,,,,"Account Management",,,,,,,,"SE-004",,,bbb,,,,,,"-",4738,"A user account was changed",0,,,,,,,"\a\b\c","A:",,,,,,,,"Audit Success",,,,,Security,,,,"Monday 2:00 PM -Tuesday 6:00 PM",0x46BA,,,,"SAM Account Name: user_m
+ Display Name:  bbb
+ User Principal Name: ccc@AAA.local
+ Home Directory:  \a\b\c
+ Home Drive:  A:
+ Script Path:  \a\g
+ Profile Path:  \f
+ User Workstations: CCC
+ Password Last Set: 2020-01-13 17:41:43 PM
+ Account Expires:  2020-01-13 17:41:43 PM
+ Primary Group ID: 956
+ AllowedToDelegateTo: server_1/coumputer_a
+ Old UAC Value:  5F9566B
+ New UAC Value:  4E6C296
+ User Account Control: SCRIPT - Disabled
+ User Parameters: <value not set>
+ SID History:  -
+ Logon Hours:  Monday 2:00 PM -Tuesday 6:00 PM",,,,,"A User account was changed.
+
+Subject:
+ Security ID:  Domain_C\user_m
+ Account Name:  user_m
+ Account Domain:  Domain_C
+ Logon ID:  0x46BA
+
+Target Account:
+ Security ID:  Domain_C\user_l
+ Account Name:  user_l
+ Account Domain:  Domain_C
+
+Changed Attributes:
+ SAM Account Name: user_m
+ Display Name:  bbb
+ User Principal Name: ccc@AAA.local
+ Home Directory:  \a\b\c
+ Home Drive:  A:
+ Script Path:  \a\g
+ Profile Path:  \f
+ User Workstations: CCC
+ Password Last Set: 2020-01-13 17:41:43 PM
+ Account Expires:  2020-01-13 17:41:43 PM
+ Primary Group ID: 956
+ AllowedToDelegateTo: server_1/coumputer_a
+ Old UAC Value:  5F9566B
+ New UAC Value:  4E6C296
+ User Account Control: SCRIPT - Disabled
+ User Parameters: <value not set>
+ SID History:  -
+ Logon Hours:  Monday 2:00 PM -Tuesday 6:00 PM
+
+Additional Information:
+ Privileges:  SeLoadDriverPrivilege",,,,,,,,,,,,4E6C296,,5F9566B,Info,,,,"2020-01-13 17:41:43 PM",,,,956,,,SeLoadDriverPrivilege,,,"\f",,480713240,,,"user_m","-","\a\g","Domain_C\user_m
+Domain_C\user_l",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,"SCRIPT - Disabled",,,"<value not set>","ccc@AAA.local",CCC,,,,,"01/13/2020 05:41:43 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4738
+EventType=0
+Type=Information
+ComputerName=SE-004
+TaskCategory=User Account Management
+OpCode=Info
+RecordNumber=480713240
+Keywords=Audit Success
+Message=A User account was changed.
+
+Subject:
+ Security ID:  Domain_C\user_m
+ Account Name:  user_m
+ Account Domain:  Domain_C
+ Logon ID:  0x46BA
+
+Target Account:
+ Security ID:  Domain_C\user_l
+ Account Name:  user_l
+ Account Domain:  Domain_C
+
+Changed Attributes:
+ SAM Account Name: user_m
+ Display Name:  bbb
+ User Principal Name: ccc@AAA.local
+ Home Directory:  \a\b\c
+ Home Drive:  A:
+ Script Path:  \a\g
+ Profile Path:  \f
+ User Workstations: CCC
+ Password Last Set: 2020-01-13 17:41:43 PM
+ Account Expires:  2020-01-13 17:41:43 PM
+ Primary Group ID: 956
+ AllowedToDelegateTo: server_1/coumputer_a
+ Old UAC Value:  5F9566B
+ New UAC Value:  4E6C296
+ User Account Control: SCRIPT - Disabled
+ User Parameters: <value not set>
+ SID History:  -
+ Logon Hours:  Monday 2:00 PM -Tuesday 6:00 PM
+
+Additional Information:
+ Privileges:  SeLoadDriverPrivilege
+","2020-01-13T17:41:43.000+0000",modified,"win:unknown","A User account was changed.
+
+Subject:
+ Security ID:  Domain_C\user_m
+ Account Name:  user_m
+ Account Domain:  Domain_C
+ Logon ID:  0x46BA
+
+Target Account:
+ Security ID:  Domain_C\user_l
+ Account Name:  user_l
+ Account Domain:  Domain_C
+
+Changed Attributes:
+ SAM Account Name: user_m
+ Display Name:  bbb
+ User Principal Name: ccc@AAA.local
+ Home Directory:  \a\b\c
+ Home Drive:  A:
+ Script Path:  \a\g
+ Profile Path:  \f
+ User Workstations: CCC
+ Password Last Set: 2020-01-13 17:41:43 PM
+ Account Expires:  2020-01-13 17:41:43 PM
+ Primary Group ID: 956
+ AllowedToDelegateTo: server_1/coumputer_a
+ Old UAC Value:  5F9566B
+ New UAC Value:  4E6C296
+ User Account Control: SCRIPT - Disabled
+ User Parameters: <value not set>
+ SID History:  -
+ Logon Hours:  Monday 2:00 PM -Tuesday 6:00 PM
+
+Additional Information:
+ Privileges:  SeLoadDriverPrivilege",,"User Account Management",user,,,17,13,41,march,43,monday,2020,local,"SE-004",,,,,,,,,false,,,,"Domain_C","SE-004",,untrust,,false,false,false,,"SE-004",,,,,,,,,false,,,,"SE-004",,untrust,,false,false,false,,480713240,"windows_account_management windows_account_modified wineventlog_security wineventlog_windows winsec","SE-004",480713240,,main,,,,47,,,"user_m
+user_l","Domain_C\user_m
+Domain_C\user_l","Domain_C\",,"A user account was changed",,WinEventLog,user,,,,"Load and unload device drivers",SeLoadDriverPrivilege,,Windows,,,"//_::_==___.====-=__===_=____.:__:__\__:____:____:",,,,0x46BA,informational,0,,,"A user account was changed",4738,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,"user_m",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was changed",failure,"Account Management","account
+change
+management
+modify
+os
+security
+windows",,,,,,,,,"account
+change
+management
+modify
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_l",,,,,,956,,,,,,,,,,,,,false,,,,,Microsoft,SeLoadDriverPrivilege,
+,"Domain_C",,"user_e
+user_l",,,,,,,,"SE-006",,,,,"Account Management",,,,,,,,"SE-006",,,,,,,,,"-",4740,"A user account was locked out",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x0452,,,,,,,,,"A user account was locked out. 
+Subject: 
+	Security ID: Domain_C\user_e 
+	Account Name: user_e
+	Account Domain: Domain_C
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_C\user_l 
+	Account Name: user_l
+Additional Information: 
+	Caller Computer Name: SE-006",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,413003737,,,,,,"Domain_C\user_e
+Domain_C\user_l",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:40 PM 
+LogName=Security 
+SourceName=Microsoft Windows security auditing.
+EventCode=4740 
+EventType=0 
+Type=Information
+ComputerName=SE-006 
+TaskCategory=User Account Management
+OpCode=Info 
+RecordNumber=413003737
+Keywords=Audit Success
+Message=A user account was locked out. 
+Subject: 
+	Security ID: Domain_C\user_e 
+	Account Name: user_e
+	Account Domain: Domain_C
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_C\user_l 
+	Account Name: user_l
+Additional Information: 
+	Caller Computer Name: SE-006
+","2020-01-13T17:41:40.000+0000",modified,"win:unknown","A user account was locked out. 
+Subject: 
+	Security ID: Domain_C\user_e 
+	Account Name: user_e
+	Account Domain: Domain_C
+	Logon ID: 0x0452
+Account That Was Locked Out: 
+	Security ID: Domain_C\user_l 
+	Account Name: user_l
+Additional Information: 
+	Caller Computer Name: SE-006",,"User Account Management",user,,,17,13,41,march,40,monday,2020,local,"SE-006",,,,,,,,,false,,,,"Domain_C","SE-006",,untrust,,false,false,false,,"SE-006",,,,,,,,,false,,,,"SE-006 ",,untrust,,false,false,false,,413003737,"windows_account_lockout windows_account_management wineventlog_security wineventlog_windows winsec","SE-006 ",413003737,,main,,,,23,,,"user_e
+user_l","Domain_C\user_e
+Domain_C\user_l","Domain_C\","locked out","A user account was locked out",,WinEventLog,user,,,,,,,Windows,,,"//_::__=_=___.=_=_==-_=__=_==_=_____._:_t_:_\_t_:_",,,lockout,0x0452,informational,0,,,"A user account was locked out",4740,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C\user_e
+Domain_C","SE-006",,,,,,,,,"user_e",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was locked out",failure,"Account Management","account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,"account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_l",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_B",,"user_n",,,,,,,,,,,,,,,,,,,,,"HOST-006",,,,,,,,,"-",1102,"The audit log was cleared",4,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x4D76,,,,,,,,,"The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,255188247,,,,,,"Domain_B\user_n",,,"Microsoft-Windows-Eventlog",,,,,,,,,,,,,,,,,"Log clear",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:40 PM
+LogName=Security
+SourceName=Microsoft-Windows-Eventlog
+EventCode=1102
+EventType=4
+Type=Information
+ComputerName=HOST-006
+TaskCategory=Log clear
+OpCode=Info
+RecordNumber=255188247
+Keywords=Audit Success
+Message=The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76
+","2020-01-13T17:41:40.000+0000",cleared,"win:unknown","The audit log was cleared.
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76",,"Log clear",audit,,,17,13,41,march,40,monday,2020,local,"HOST-006",,,,,,,,,false,,,,"Domain_B","HOST-006",,untrust,,false,false,false,,"HOST-006",,,,,,,,,false,,,,"HOST-006",,untrust,,false,false,false,,255188247,"windows_audit_log_cleared wineventlog_security wineventlog_windows winsec","HOST-006",255188247,,main,,,,18,,,"user_n","Domain_B\user_n","Domain_B\",,"The audit log was cleared",,WinEventLog,audit,,,,,,,Windows,,,"//_::_==--====-=_===_=____.:t_:tt\t_:ttt_:ttt_:tt",,,,0x4D76,informational,4,,,"The audit log was cleared",1102,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"The audit log was cleared",failure,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,,,,,,,22,0,,"user_n",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,,,,,,,,,,"MICROSOFT_AUTHENTICATION_PACKAGE_V1_0",,,,,,,,,,,,,,"PROD-POS-004",,,,,,,,,0xC000006D,4776,"The domain controller attempted to validate the credentials for an account",0,,,,,,,,,,,,,,,,"Failure Audit",,,,,Security,,"user_l",,,,,,,,,,,,"The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_l
+Source Workstation: PROD-POS-004
+Error Code: 0xC000006D",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,621408923,,,,,,,,,"Microsoft Windows security auditing.",,,"PROD-POS-004",,,,,,,,,,,,,,"Credential Validation",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:39 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4776
+EventType=0
+Type=Information
+ComputerName=PROD-POS-004
+TaskCategory=Credential Validation
+OpCode=Info
+RecordNumber=621408923
+Keywords=Failure Audit
+Message=The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_l
+Source Workstation: PROD-POS-004
+Error Code: 0xC000006D
+","2020-01-13T17:41:39.000+0000",failure,"win:unknown","The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_l
+Source Workstation: PROD-POS-004
+Error Code: 0xC000006D",,"Credential Validation",,,,17,13,41,march,39,monday,2020,local,"PROD-POS-004",,,,,,,,,false,,,,,"PROD-POS-004",,untrust,,false,false,false,,"PROD-POS-004",,,,,,,,,false,,,,"PROD-POS-004",,untrust,,false,false,false,,621408923,"err0r nix_errors windows_account_used4logon wineventlog_security wineventlog_windows winsec","PROD-POS-004",621408923,,main,,,,17,,,,,,,"The domain controller attempted to validate the credentials for an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====--=_===_=_________._:__:__:_--_:_",,,,,informational,0,,,"The domain controller attempted to validate the credentials for an account",4776,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,"PROD-POS-004",,,,,,,,,false,,,,,"PROD-POS-004",,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,failure,,"The domain controller attempted to validate the credentials for an account",failure,,"authentication
+error
+failure
+os
+security
+windows",,,,failure,,,,,"authentication
+error
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_l",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_C",,"user_f",,,,,,,,,,,,,,,,,,,,,"SE-001",,,,,,,,,"-",4689,"A process has exited",0,0x2B1563,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0xA369,,,,,,,,,"A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_f
+	Account Name:		user_f
+	Account Domain:		Domain_C
+	Logon ID:		0xA369
+
+Process Information:
+	Process ID:	0x9ADA
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0x2B1563",,,,,,,,,,,,,,,Info,,,,,,,,,,,,0x9ADA,"C:\Windows\System32\example_a.exe",,,262099348,,,,,,"Domain_C\user_f",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Process Termination",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:38 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=SE-001
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=262099348
+Keywords=Audit Success
+Message=A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_f
+	Account Name:		user_f
+	Account Domain:		Domain_C
+	Logon ID:		0xA369
+
+Process Information:
+	Process ID:	0x9ADA
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0x2B1563
+","2020-01-13T17:41:38.000+0000",success,"win:unknown","A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_f
+	Account Name:		user_f
+	Account Domain:		Domain_C
+	Logon ID:		0xA369
+
+Process Information:
+	Process ID:	0x9ADA
+	Process Name:	C:\Windows\System32\example_a.exe
+	Exit Status:	0x2B1563",,"Process Termination",,,,17,13,41,march,38,monday,2020,local,"SE-001",,,,,,,,,false,,,,"Domain_C","SE-001",,untrust,,false,false,false,,"SE-001",,,,,,,,,false,,,,"SE-001",,untrust,,false,false,false,,262099348,"windows_process_exit wineventlog_security wineventlog_windows winsec","SE-001",262099348,,main,,,,24,,,"user_f","Domain_C\user_f","Domain_C\",,"A process has exited",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=___.:t_:tt\t_:ttt_:ttt_:tt",,,,0xA369,informational,0,,,"A process has exited",4689,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"A process has exited",failure,,"execute
+os
+process
+security
+stop
+success
+windows",,,,success,,,,,"execute
+os
+process
+security
+stop
+windows",,,,,,,,,,,,,,,22,0,,"user_f",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"TASERVER$",,GUEST,,,UNKNOWN,,,,,,,,,,,,,,,,,,"HOST-001",,,,,,,,,"-",5058,"Key file operation",Information,,"win\directory\directory2\B8667320C54EBA76661B4E31D5B5669B_FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC",,,,,,,,,,,,"FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC","User key.","Audit Success",,,,,Security,,,,,0xF64,,,,,,,,,"Key file operation.
+
+Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		GUEST
+	Account Domain:		TASERVER$
+	Logon ID:		0xF64
+Cryptographic Parameters:
+	Provider Name:	Microsoft Software Key Storage Provider
+	Algorithm Name:	UNKNOWN
+	Key Name:	FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Key Type: User key.
+
+Key File Operation Information:
+	File Path:	win\directory\directory2\B8667320C54EBA76661B4E31D5B5669B_FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Operation:	Read persisted key from file.
+	Return Code:	0x9",,,,,,,,,,,,,,,Info,"Read persisted key from file.",,,,,,,,,,,,,,"Microsoft Software Key Storage Provider",557456598,,0x9,,,,"NT AUTHORITY\SYSTEM",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:38 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=5058
+EventType=Information
+Type=Information
+ComputerName=HOST-001
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=557456598
+Keywords=Audit Success
+Message=Key file operation.
+
+Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		GUEST
+	Account Domain:		TASERVER$
+	Logon ID:		0xF64
+Cryptographic Parameters:
+	Provider Name:	Microsoft Software Key Storage Provider
+	Algorithm Name:	UNKNOWN
+	Key Name:	FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Key Type: User key.
+
+Key File Operation Information:
+	File Path:	win\directory\directory2\B8667320C54EBA76661B4E31D5B5669B_FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Operation:	Read persisted key from file.
+	Return Code:	0x9
+
+","2020-01-13T17:41:38.000+0000",success,"win:unknown","Key file operation.
+
+Subject:
+	Security ID:		NT AUTHORITY\SYSTEM
+	Account Name:		GUEST
+	Account Domain:		TASERVER$
+	Logon ID:		0xF64
+Cryptographic Parameters:
+	Provider Name:	Microsoft Software Key Storage Provider
+	Algorithm Name:	UNKNOWN
+	Key Name:	FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Key Type: User key.
+
+Key File Operation Information:
+	File Path:	win\directory\directory2\B8667320C54EBA76661B4E31D5B5669B_FF522A70-C2E7-C2E7-C2E7-BEA0175E42CC
+	Operation:	Read persisted key from file.
+	Return Code:	0x9",,"Authentication Policy Change",,,,17,13,41,march,38,monday,2020,local,"HOST-001",,,,,,,,,false,,,,"TASERVER$","HOST-001",,untrust,,false,false,false,,"HOST-001",,,,,,,,,false,,,,"HOST-001",,untrust,,false,false,false,,557456598,"wineventlog_security wineventlog_windows winsec","HOST-001",557456598,,main,,,,30,,,GUEST,"NT AUTHORITY\SYSTEM","NT AUTHORITY\",,"Key file operation",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=__===_=__.:t_:tt_\t_:ttt_:tt$t_:",,,,0xF64,informational,Information,,,"Key file operation",5058,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"NT AUTHORITY",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Key file operation",failure,,"os
+security
+success
+windows",,,,success,,,,,"os
+security
+windows",,,,,,,,,,,,,,,22,0,,GUEST,,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_C",,"user_f",,,,,,,,,,,,,"Account Management","Password Policy modified",,,,,,,"BUSDEV-001",,,,,"-","Domain_C\","Domain_C",,"-",4739,"Domain Policy was changed",0,,,"-",,,,,,,,,,,,,"Audit Success",,"-","-","-",Security,,,,,0xA369,,,,"Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-","-","-",,,"Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_C\user_f
+	Account Name:  user_f
+	Account Domain:  Domain_C
+	Logon ID:  0xA369
+
+Domain:
+	Domain Name:		Domain_C
+	Domain ID:		Domain_C\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-","-",6,"-",,,,,,,,,,"-",,Info,,,23,,"-",,,,,,"-",,,,,5449203,,,,,,"Domain_C\user_f",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:38 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4739
+EventType=0
+Type=Information
+ComputerName=BUSDEV-001
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=5449203
+Keywords=Audit Success
+Message=Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_C\user_f
+	Account Name:  user_f
+	Account Domain:  Domain_C
+	Logon ID:  0xA369
+
+Domain:
+	Domain Name:		Domain_C
+	Domain ID:		Domain_C\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-
+","2020-01-13T17:41:38.000+0000",success,"win:unknown","Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_C\user_f
+	Account Name:  user_f
+	Account Domain:  Domain_C
+	Logon ID:  0xA369
+
+Domain:
+	Domain Name:		Domain_C
+	Domain ID:		Domain_C\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-",,"Authentication Policy Change",,,,17,13,41,march,38,monday,2020,local,"BUSDEV-001",,,,,,,,,false,,,,"Domain_C","BUSDEV-001",,untrust,,false,false,false,,"BUSDEV-001",,,,,,,,,false,,,,"BUSDEV-001",,untrust,,false,false,false,,5449203,"windows_account_management windows_security_misconfiguration_password_minimum_length wineventlog_security wineventlog_windows winsec","BUSDEV-001",5449203,,main,,,,43,,,"user_f","Domain_C\user_f","Domain_C\",,"Domain Policy was changed",,WinEventLog,,,,,,"-",,Windows,,,"//_::_==___.====-=__===_=___._:tt__:t_:__\t_:__t_:",,,,0xA369,high,0,,,"Domain Policy was changed",4739,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Domain Policy was changed",failure,"Account Management","account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+success
+vulnerability
+windows",,,,success,,,,,"account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+vulnerability
+windows",,,,,,,,,,,,,,,22,0,,"user_f",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,"-",
+,"Domain_B
+Domain_B",,"user_n
+user_g",,,,,,,,,,,,,"Account Management",,,,,,,,"PROD-MFS-002",,,,,,,,,"-",4743,"A computer account was deleted",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x4D76,,,,,,,,,"A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+
+Additional Information:
+	Privileges:	SeTakeOwnershipPrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeTakeOwnershipPrivilege,,,,,519924503,,,,,,"Domain_B\user_n
+Domain_B\user_g",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Computer Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:38 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4743
+EventType=0
+Type=Information
+ComputerName=PROD-MFS-002
+TaskCategory=Computer Account Management
+OpCode=Info
+RecordNumber=519924503
+Keywords=Audit Success
+Message=A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+
+Additional Information:
+	Privileges:	SeTakeOwnershipPrivilege
+","2020-01-13T17:41:38.000+0000",deleted,"win:unknown","A computer account was deleted.
+
+Subject:
+	Security ID:		Domain_B\user_n
+	Account Name:		user_n
+	Account Domain:		Domain_B
+	Logon ID:		0x4D76
+
+Target Computer:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+
+Additional Information:
+	Privileges:	SeTakeOwnershipPrivilege",,"Computer Account Management",user,,,17,13,41,march,38,monday,2020,local,"PROD-MFS-002",,,,,,,,,false,,,,"Domain_B","PROD-MFS-002",,untrust,,false,false,false,,"PROD-MFS-002",,,,,,,,,false,,,,"PROD-MFS-002",,untrust,,false,false,false,,519924503,"windows_account_deleted windows_account_management wineventlog_security wineventlog_windows winsec","PROD-MFS-002",519924503,,main,,,,27,,,"user_n
+user_g","Domain_B\user_n
+Domain_B\user_g","Domain_B\",deleted,"A computer account was deleted",,WinEventLog,user,,,,"Take ownership of files or other objects",SeTakeOwnershipPrivilege,,Windows,,,"//_::_==___.====--=__===_=____.:t_:tt\t_:ttt_:ttt_",,,,0x4D76,informational,0,,,"A computer account was deleted",4743,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B",,,,,,,,,,"user_n",,,,,,,,,,,,,,,,,false,,,,,success,,"A computer account was deleted",failure,"Account Management","account
+change
+delete
+management
+os
+security
+windows",,,,,,,,,"account
+change
+delete
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_g",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,SeTakeOwnershipPrivilege,
+SeRemoteInteractiveLogonRight,"Domain_E",,"ACME-001
+Domain_E\user_j",,,,,,,,,,,,,,,,,,,,,"ACME-001",,,,,,,,,"-",4718,"System security access was removed from an account",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0xB111,,,,,,,,,"System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_E\SYSTEM
+	Account Name:		ACME-001
+	Account Domain:		Domain_E
+	Logon ID:		0xB111
+
+Account Modified:
+	Account Name:		Domain_E\user_j
+
+Access Removed:
+	Access Right:		SeRemoteInteractiveLogonRight",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,508974276,,,,,,"Domain_E\SYSTEM",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:37 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4718
+EventType=0
+Type=Information
+ComputerName=ACME-001
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=508974276
+Keywords=Audit Success
+Message=System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_E\SYSTEM
+	Account Name:		ACME-001
+	Account Domain:		Domain_E
+	Logon ID:		0xB111
+
+Account Modified:
+	Account Name:		Domain_E\user_j
+
+Access Removed:
+	Access Right:		SeRemoteInteractiveLogonRight
+","2020-01-13T17:41:37.000+0000",success,"win:unknown","System security access was removed from an account.
+
+Subject:
+	Security ID:		Domain_E\SYSTEM
+	Account Name:		ACME-001
+	Account Domain:		Domain_E
+	Logon ID:		0xB111
+
+Account Modified:
+	Account Name:		Domain_E\user_j
+
+Access Removed:
+	Access Right:		SeRemoteInteractiveLogonRight",,"Authentication Policy Change",,,,17,13,41,march,37,monday,2020,local,"ACME-001",,,,,,,,,false,,,,"Domain_E","ACME-001",,untrust,,false,false,false,,"ACME-001",,,,,,,,,false,,,,"ACME-001",,untrust,,false,false,false,,508974276,"windows_security_access_removed wineventlog_security wineventlog_windows winsec","ACME-001",508974276,,main,,,,25,,,"ACME-001
+Domain_E\user_j","Domain_E\SYSTEM","Domain_E\",,"System security access was removed from an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=__===_=_______.:t_:tt\t_:tt-t_:t",,,,0xB111,informational,0,,,"System security access was removed from an account",4718,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E",,,,,,,,,,"ACME-001",,,,,,,,,,,,,,,,,false,,,,,success,,"System security access was removed from an account",failure,,"access
+account
+authorization
+change
+delete
+os
+security
+success
+windows",,,,success,,,,,"access
+account
+authorization
+change
+delete
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"Domain_E\user_j",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_E",,"user_a
+user_h",,,,,,,,"PROD-MFS-004",,,,,"Account Management",,,,,,,,"PROD-MFS-004",,,,,,,,,"-",4740,"A user account was locked out",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x6C10,,,,,,,,,"A user account was locked out. 
+Subject: 
+	Security ID: Domain_E\user_a 
+	Account Name: user_a
+	Account Domain: Domain_E
+	Logon ID: 0x6C10
+Account That Was Locked Out: 
+	Security ID: Domain_E\user_h 
+	Account Name: user_h
+Additional Information: 
+	Caller Computer Name: PROD-MFS-004",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,872323346,,,,,,"Domain_E\user_a
+Domain_E\user_h",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:35 PM 
+LogName=Security 
+SourceName=Microsoft Windows security auditing.
+EventCode=4740 
+EventType=0 
+Type=Information
+ComputerName=PROD-MFS-004 
+TaskCategory=User Account Management
+OpCode=Info 
+RecordNumber=872323346
+Keywords=Audit Success
+Message=A user account was locked out. 
+Subject: 
+	Security ID: Domain_E\user_a 
+	Account Name: user_a
+	Account Domain: Domain_E
+	Logon ID: 0x6C10
+Account That Was Locked Out: 
+	Security ID: Domain_E\user_h 
+	Account Name: user_h
+Additional Information: 
+	Caller Computer Name: PROD-MFS-004
+","2020-01-13T17:41:35.000+0000",modified,"win:unknown","A user account was locked out. 
+Subject: 
+	Security ID: Domain_E\user_a 
+	Account Name: user_a
+	Account Domain: Domain_E
+	Logon ID: 0x6C10
+Account That Was Locked Out: 
+	Security ID: Domain_E\user_h 
+	Account Name: user_h
+Additional Information: 
+	Caller Computer Name: PROD-MFS-004",,"User Account Management",user,,,17,13,41,march,35,monday,2020,local,"PROD-MFS-004",,,,,,,,,false,,,,"Domain_E","PROD-MFS-004",,untrust,,false,false,false,,"PROD-MFS-004",,,,,,,,,false,,,,"PROD-MFS-004 ",,untrust,,false,false,false,,872323346,"windows_account_lockout windows_account_management wineventlog_security wineventlog_windows winsec","PROD-MFS-004 ",872323346,,main,,,,23,,,"user_a
+user_h","Domain_E\user_a
+Domain_E\user_h","Domain_E\","locked out","A user account was locked out",,WinEventLog,user,,,,,,,Windows,,,"//_::__=_=___.=_=_==--_=__=_==_=_____._:_t_:_\_t_:",,,lockout,0x6C10,informational,0,,,"A user account was locked out",4740,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E\user_a
+Domain_E","PROD-MFS-004",,,,,,,,,"user_a",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was locked out",failure,"Account Management","account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,"account
+change
+lock
+lockout
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_h",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_E
+Domain_E",,"user_a
+user_l",,,,,,,,,,,,,"Account Management",,,,,,,,"BUSDEV-002",,,,,,,,,"-",4724,"An attempt was made to reset an accounts password",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x6C10,,,,,,,,,"An attempt was made to reset an account's password.
+Subject:
+	Security ID:  Domain_E\user_a
+	Account Name:  user_a
+	Account Domain:  Domain_E
+	Logon ID:  0x6C10
+Target Account:
+	Security ID:  Domain_E\user_l
+	Account Name:  user_l
+	Account Domain:  Domain_E",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,23494990,,,,,,"Domain_E\user_a
+Domain_E\user_l",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:35 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4724
+EventType=0
+Type=Information
+ComputerName=BUSDEV-002
+TaskCategory=User Account Management
+OpCode=Info
+RecordNumber=23494990
+Keywords=Audit Success
+Message=An attempt was made to reset an account's password.
+Subject:
+	Security ID:  Domain_E\user_a
+	Account Name:  user_a
+	Account Domain:  Domain_E
+	Logon ID:  0x6C10
+Target Account:
+	Security ID:  Domain_E\user_l
+	Account Name:  user_l
+	Account Domain:  Domain_E
+","2020-01-13T17:41:35.000+0000",modified,"win:unknown","An attempt was made to reset an account's password.
+Subject:
+	Security ID:  Domain_E\user_a
+	Account Name:  user_a
+	Account Domain:  Domain_E
+	Logon ID:  0x6C10
+Target Account:
+	Security ID:  Domain_E\user_l
+	Account Name:  user_l
+	Account Domain:  Domain_E",,"User Account Management",user,,,17,13,41,march,35,monday,2020,local,"BUSDEV-002",,,,,,,,,false,,,,"Domain_E","BUSDEV-002",,untrust,,false,false,false,,"BUSDEV-002",,,,,,,,,false,,,,"BUSDEV-002",,untrust,,false,false,false,,23494990,"windows_account_management windows_account_password_set wineventlog_security wineventlog_windows winsec","BUSDEV-002",23494990,,main,,,,22,,,"user_a
+user_l","Domain_E\user_a
+Domain_E\user_l","Domain_E\","reset an account's password","An attempt was made to reset an accounts password",,WinEventLog,user,,,,,,,Windows,,,"//_::_==___.====-=__===_=_______'_.:t_:__\t_:__t_:",,,,0x6C10,informational,0,,,"An attempt was made to reset an accounts password",4724,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E",,,,,,,,,,"user_a",,,,,,,,,,,,,,,,,false,,,,,success,,"An attempt was made to reset an accounts password",failure,"Account Management","account
+change
+management
+modify
+os
+password
+security
+windows",,,,,,,,,"account
+change
+management
+modify
+os
+password
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_l",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,,,,,,,,,,"MICROSOFT_AUTHENTICATION_PACKAGE_V1_0",,,,,,,,,,,,,,"COREDEV-002",,,,,,,,,0xC000006A,4776,"The domain controller attempted to validate the credentials for an account",0,,,,,,,,,,,,,,,,"Failure Audit",,,,,Security,,"user_j",,,,,,,,,,,,"The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_j
+Source Workstation: COREDEV-002
+Error Code: 0xC000006A",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,838339804,,,,,,,,,"Microsoft Windows security auditing.",,,"COREDEV-002",,,,,,,,,,,,,,"Credential Validation",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:34 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4776
+EventType=0
+Type=Information
+ComputerName=COREDEV-002
+TaskCategory=Credential Validation
+OpCode=Info
+RecordNumber=838339804
+Keywords=Failure Audit
+Message=The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_j
+Source Workstation: COREDEV-002
+Error Code: 0xC000006A
+","2020-01-13T17:41:34.000+0000",failure,"win:unknown","The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_j
+Source Workstation: COREDEV-002
+Error Code: 0xC000006A",,"Credential Validation",,,,17,13,41,march,34,monday,2020,local,"COREDEV-002",,,,,,,,,false,,,,,"COREDEV-002",,untrust,,false,false,false,,"COREDEV-002",,,,,,,,,false,,,,"COREDEV-002",,untrust,,false,false,false,,838339804,"err0r nix_errors windows_account_used4logon wineventlog_security wineventlog_windows winsec","COREDEV-002",838339804,,main,,,,17,,,,,,,"The domain controller attempted to validate the credentials for an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=_________._:__:__:_-_:_",,,,,informational,0,,,"The domain controller attempted to validate the credentials for an account",4776,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,"COREDEV-002",,,,,,,,,false,,,,,"COREDEV-002",,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,failure,,"The domain controller attempted to validate the credentials for an account",failure,,"authentication
+error
+failure
+os
+security
+windows",,,,failure,,,,,"authentication
+error
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_j",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_B",,"user_m",,,,,,,,,,,,,"Account Management","Password Policy modified",,,,,,,"COREDEV-001",,,,,"-","Domain_B\","Domain_B",,"-",4739,"Domain Policy was changed",0,,,"-",,,,,,,,,,,,,"Audit Success",,"-","-","-",Security,,,,,0x46BA,,,,"Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-","-","-",,,"Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_B\user_m
+	Account Name:  user_m
+	Account Domain:  Domain_B
+	Logon ID:  0x46BA
+
+Domain:
+	Domain Name:		Domain_B
+	Domain ID:		Domain_B\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-","-",6,"-",,,,,,,,,,"-",,Info,,,23,,"-",,,,,,"-",,,,,813602468,,,,,,"Domain_B\user_m",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:34 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4739
+EventType=0
+Type=Information
+ComputerName=COREDEV-001
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=813602468
+Keywords=Audit Success
+Message=Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_B\user_m
+	Account Name:  user_m
+	Account Domain:  Domain_B
+	Logon ID:  0x46BA
+
+Domain:
+	Domain Name:		Domain_B
+	Domain ID:		Domain_B\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-
+","2020-01-13T17:41:34.000+0000",success,"win:unknown","Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_B\user_m
+	Account Name:  user_m
+	Account Domain:  Domain_B
+	Logon ID:  0x46BA
+
+Domain:
+	Domain Name:		Domain_B
+	Domain ID:		Domain_B\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-",,"Authentication Policy Change",,,,17,13,41,march,34,monday,2020,local,"COREDEV-001",,,,,,,,,false,,,,"Domain_B","COREDEV-001",,untrust,,false,false,false,,"COREDEV-001",,,,,,,,,false,,,,"COREDEV-001",,untrust,,false,false,false,,813602468,"windows_account_management windows_security_misconfiguration_password_minimum_length wineventlog_security wineventlog_windows winsec","COREDEV-001",813602468,,main,,,,43,,,"user_m","Domain_B\user_m","Domain_B\",,"Domain Policy was changed",,WinEventLog,,,,,,"-",,Windows,,,"//_::_==___.====-=__===_=___._:tt__:t_:__\t_:__t_:",,,,0x46BA,high,0,,,"Domain Policy was changed",4739,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Domain Policy was changed",failure,"Account Management","account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+success
+vulnerability
+windows",,,,success,,,,,"account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+vulnerability
+windows",,,,,,,,,,,,,,,22,0,,"user_m",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,"-",
+,"Domain_A",,"user_e",,,,,,,,,,,,,"Account Management","Password Policy modified",,,,,,,"COREDEV-003",,,,,"-","Domain_A\","Domain_A",,"-",4739,"Domain Policy was changed",0,,,"-",,,,,,,,,,,,,"Audit Success",,"-","-","-",Security,,,,,0x0452,,,,"Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-","-","-",,,"Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_A\user_e
+	Account Name:  user_e
+	Account Domain:  Domain_A
+	Logon ID:  0x0452
+
+Domain:
+	Domain Name:		Domain_A
+	Domain ID:		Domain_A\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-","-",6,"-",,,,,,,,,,"-",,Info,,,23,,"-",,,,,,"-",,,,,270781261,,,,,,"Domain_A\user_e",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Authentication Policy Change",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:33 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4739
+EventType=0
+Type=Information
+ComputerName=COREDEV-003
+TaskCategory=Authentication Policy Change
+OpCode=Info
+RecordNumber=270781261
+Keywords=Audit Success
+Message=Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_A\user_e
+	Account Name:  user_e
+	Account Domain:  Domain_A
+	Logon ID:  0x0452
+
+Domain:
+	Domain Name:		Domain_A
+	Domain ID:		Domain_A\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-
+","2020-01-13T17:41:33.000+0000",success,"win:unknown","Domain Policy was changed.
+
+Change Type:		Password Policy modified
+
+Subject:
+	Security ID:  Domain_A\user_e
+	Account Name:  user_e
+	Account Domain:  Domain_A
+	Logon ID:  0x0452
+
+Domain:
+	Domain Name:		Domain_A
+	Domain ID:		Domain_A\
+
+Changed Attributes:
+	Min. Password Age:	-
+	Max. Password Age:	-
+	Force Logoff:		-
+	Lockout Threshold:	-
+	Lockout Observation Window:	-
+	Lockout Duration:	-
+	Password Properties:	-
+	Min. Password Length:	6
+	Password History Length:	23
+	Machine Account Quota:	-
+	Mixed Domain Mode:	-
+	Domain Behavior Version:	-
+	OEM Information:	-
+
+Additional Information:
+	Privileges:		-",,"Authentication Policy Change",,,,17,13,41,march,33,monday,2020,local,"COREDEV-003",,,,,,,,,false,,,,"Domain_A","COREDEV-003",,untrust,,false,false,false,,"COREDEV-003",,,,,,,,,false,,,,"COREDEV-003",,untrust,,false,false,false,,270781261,"windows_account_management windows_security_misconfiguration_password_minimum_length wineventlog_security wineventlog_windows winsec","COREDEV-003",270781261,,main,,,,43,,,"user_e","Domain_A\user_e","Domain_A\",,"Domain Policy was changed",,WinEventLog,,,,,,"-",,Windows,,,"//_::_==___.====-=__===_=___._:tt__:t_:__\t_:__t_:",,,,0x0452,high,0,,,"Domain Policy was changed",4739,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_A",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Domain Policy was changed",failure,"Account Management","account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+success
+vulnerability
+windows",,,,success,,,,,"account
+audit
+change
+management
+misconfiguration
+os
+password
+policy
+report
+security
+vulnerability
+windows",,,,,,,,,,,,,,,22,0,,"user_e",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,"-",
+,,,,,,,,,,"MICROSOFT_AUTHENTICATION_PACKAGE_V1_0",,,,,,,,,,,,,,"BUSDEV-002",,,,,,,,,0xC0000064,4776,"The domain controller attempted to validate the credentials for an account",0,,,,,,,,,,,,,,,,"Failure Audit",,,,,Security,,"user_g",,,,,,,,,,,,"The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_g
+Source Workstation: BUSDEV-002
+Error Code: 0xC0000064",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,159365368,,,,,,,,,"Microsoft Windows security auditing.",,,"BUSDEV-002",,,,,,,,,,,,,,"Credential Validation",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:33 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4776
+EventType=0
+Type=Information
+ComputerName=BUSDEV-002
+TaskCategory=Credential Validation
+OpCode=Info
+RecordNumber=159365368
+Keywords=Failure Audit
+Message=The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_g
+Source Workstation: BUSDEV-002
+Error Code: 0xC0000064
+","2020-01-13T17:41:33.000+0000",failure,"win:unknown","The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_g
+Source Workstation: BUSDEV-002
+Error Code: 0xC0000064",,"Credential Validation",,,,17,13,41,march,33,monday,2020,local,"BUSDEV-002",,,,,,,,,false,,,,,"BUSDEV-002",,untrust,,false,false,false,,"BUSDEV-002",,,,,,,,,false,,,,"BUSDEV-002",,untrust,,false,false,false,,159365368,"err0r nix_errors windows_account_used4logon wineventlog_security wineventlog_windows winsec","BUSDEV-002",159365368,,main,,,,17,,,,,,,"The domain controller attempted to validate the credentials for an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=_________._:__:__:_-_:_",,,,,informational,0,,,"The domain controller attempted to validate the credentials for an account",4776,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,"BUSDEV-002",,,,,,,,,false,,,,,"BUSDEV-002",,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,failure,,"The domain controller attempted to validate the credentials for an account",failure,,"authentication
+error
+failure
+os
+security
+windows",,,,failure,,,,,"authentication
+error
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_g",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,,,,,,,,,,"MICROSOFT_AUTHENTICATION_PACKAGE_V1_0",,,,,,,,,,,,,,"ACME-003",,,,,,,,,0xC0000064,4776,"The domain controller attempted to validate the credentials for an account",0,,,,,,,,,,,,,,,,"Failure Audit",,,,,Security,,"user_c",,,,,,,,,,,,"The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_c
+Source Workstation: ACME-003
+Error Code: 0xC0000064",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,410483160,,,,,,,,,"Microsoft Windows security auditing.",,,"ACME-003",,,,,,,,,,,,,,"Credential Validation",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:33 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4776
+EventType=0
+Type=Information
+ComputerName=ACME-003
+TaskCategory=Credential Validation
+OpCode=Info
+RecordNumber=410483160
+Keywords=Failure Audit
+Message=The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_c
+Source Workstation: ACME-003
+Error Code: 0xC0000064
+","2020-01-13T17:41:33.000+0000",failure,"win:unknown","The computer attempted to validate the credentials for an account.
+Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account: user_c
+Source Workstation: ACME-003
+Error Code: 0xC0000064",,"Credential Validation",,,,17,13,41,march,33,monday,2020,local,"ACME-003",,,,,,,,,false,,,,,"ACME-003",,untrust,,false,false,false,,"ACME-003",,,,,,,,,false,,,,"ACME-003",,untrust,,false,false,false,,410483160,"err0r nix_errors windows_account_used4logon wineventlog_security wineventlog_windows winsec","ACME-003",410483160,,main,,,,17,,,,,,,"The domain controller attempted to validate the credentials for an account",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=_________._:__:__:_-_:_",,,,,informational,0,,,"The domain controller attempted to validate the credentials for an account",4776,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,"ACME-003",,,,,,,,,false,,,,,"ACME-003",,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,failure,,"The domain controller attempted to validate the credentials for an account",failure,,"authentication
+error
+failure
+os
+security
+windows",,,,failure,,,,,"authentication
+error
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_c",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_C",,"user_j",,,,,,,,,,,,,,,,,,,,,"ACME-004",,,,,,,,,"-",4689,"A process has exited",0,0x010B79,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0xB111,,,,,,,,,"A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_j
+	Account Name:		user_j
+	Account Domain:		Domain_C
+	Logon ID:		0xB111
+
+Process Information:
+	Process ID:	0x82B3
+	Process Name:	C:\Windows\System32\example_f.exe
+	Exit Status:	0x010B79",,,,,,,,,,,,,,,Info,,,,,,,,,,,,0x82B3,"C:\Windows\System32\example_f.exe",,,175397255,,,,,,"Domain_C\user_j",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Process Termination",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:32 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=ACME-004
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=175397255
+Keywords=Audit Success
+Message=A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_j
+	Account Name:		user_j
+	Account Domain:		Domain_C
+	Logon ID:		0xB111
+
+Process Information:
+	Process ID:	0x82B3
+	Process Name:	C:\Windows\System32\example_f.exe
+	Exit Status:	0x010B79
+","2020-01-13T17:41:32.000+0000",success,"win:unknown","A process has exited.
+
+Subject:
+	Security ID:		Domain_C\user_j
+	Account Name:		user_j
+	Account Domain:		Domain_C
+	Logon ID:		0xB111
+
+Process Information:
+	Process ID:	0x82B3
+	Process Name:	C:\Windows\System32\example_f.exe
+	Exit Status:	0x010B79",,"Process Termination",,,,17,13,41,march,32,monday,2020,local,"ACME-004",,,,,,,,,false,,,,"Domain_C","ACME-004",,untrust,,false,false,false,,"ACME-004",,,,,,,,,false,,,,"ACME-004",,untrust,,false,false,false,,175397255,"windows_process_exit wineventlog_security wineventlog_windows winsec","ACME-004",175397255,,main,,,,24,,,"user_j","Domain_C\user_j","Domain_C\",,"A process has exited",,WinEventLog,,,,,,,,Windows,,,"//_::_==___.====-=_===_=___.:t_:tt\t_:ttt_:ttt_:tt",,,,0xB111,informational,0,,,"A process has exited",4689,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"A process has exited",failure,,"execute
+os
+process
+security
+stop
+success
+windows",,,,success,,,,,"execute
+os
+process
+security
+stop
+windows",,,,,,,,,,,,,,,22,0,,"user_j",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_E
+Domain_E",,"ACME-001
+user_b",,,,,,,Kerberos,,,,,,,,,,,,,,"ACME-001",,,,,,,,Yes,"-",4624,"An account was successfully logged on",0,,,,,,,,,,Delegation,,,0,,,"Audit Success",989F,,,,Security,,,"{00000000-0000-0000-0000-000000000000}",,"0x70E4
+0x3A81",logonProcess1,5,,,,,,,"An account was successfully logged on.
+
+Subject:
+ Security ID:  Domain_E\SYSTEM
+ Account Name:  ACME-001
+ Account Domain:  Domain_E
+ Logon ID:  0x70E4
+
+Logon Information:
+ Logon Type:  5
+ Restricted Admin Mode: No
+ Virtual Account:  Yes
+ Elevated Token:  Yes
+
+Impersonation Level:  Delegation
+
+New Logon:
+ Security ID:  Domain_E\user_b
+ Account Name:  user_b
+ Account Domain:  Domain_E
+ Logon ID:  0x3A81
+ Linked Logon ID:  989F
+ Network Account Name: -
+ Network Account Domain: -
+ Logon GUID:  {00000000-0000-0000-0000-000000000000}
+
+Process Information:
+ Process ID:  0xE57A
+ Process Name:  C:\Windows\System32\example_b.exe
+
+Network Information:
+ Workstation Name: ACME-001
+ Source Network Address: -
+ Source Port:  36886
+
+Detailed Authentication Information:
+ Logon Process:  logonProcess1 
+ Authentication Package: Kerberos
+ Transited Services: -
+ Package Name (NTLM only): -
+ Key Length:  0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as 061BC.exe or 061BC.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+ - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+ - Transited services indicate which intermediate services have participated in this logon request.
+ - Package name indicates which sub-protocol was used among the NTLM protocols.
+ - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",,,,"-","-",,,,,,,,,,Info,,"-",,,,,,,,,,0xE57A,"C:\Windows\System32\example_b.exe",,,965535190,No,,,,,"Domain_E\SYSTEM
+Domain_E\user_b",,,"Microsoft Windows security auditing.","-",36886,,,,,,,,,,,,,,,Logon,,,,"-",Information,,,,,,,,Yes,,,"ACME-001","01/13/2020 05:41:32 PM
+LogName=Security
+SourceName= Microsoft Windows security auditing.
+EventCode=4624
+EventType=0
+Type=Information
+ComputerName=ACME-001
+TaskCategory=Logon
+OpCode=Info
+RecordNumber=965535190
+Keywords=Audit Success
+Message=An account was successfully logged on.
+
+Subject:
+ Security ID:  Domain_E\SYSTEM
+ Account Name:  ACME-001
+ Account Domain:  Domain_E
+ Logon ID:  0x70E4
+
+Logon Information:
+ Logon Type:  5
+ Restricted Admin Mode: No
+ Virtual Account:  Yes
+ Elevated Token:  Yes
+
+Impersonation Level:  Delegation
+
+New Logon:
+ Security ID:  Domain_E\user_b
+ Account Name:  user_b
+ Account Domain:  Domain_E
+ Logon ID:  0x3A81
+ Linked Logon ID:  989F
+ Network Account Name: -
+ Network Account Domain: -
+ Logon GUID:  {00000000-0000-0000-0000-000000000000}
+
+Process Information:
+ Process ID:  0xE57A
+ Process Name:  C:\Windows\System32\example_b.exe
+
+Network Information:
+ Workstation Name: ACME-001
+ Source Network Address: -
+ Source Port:  36886
+
+Detailed Authentication Information:
+ Logon Process:  logonProcess1 
+ Authentication Package: Kerberos
+ Transited Services: -
+ Package Name (NTLM only): -
+ Key Length:  0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as 061BC.exe or 061BC.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+ - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+ - Transited services indicate which intermediate services have participated in this logon request.
+ - Package name indicates which sub-protocol was used among the NTLM protocols.
+ - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+
+","2020-01-13T17:41:32.000+0000",success,"win:local","An account was successfully logged on.
+
+Subject:
+ Security ID:  Domain_E\SYSTEM
+ Account Name:  ACME-001
+ Account Domain:  Domain_E
+ Logon ID:  0x70E4
+
+Logon Information:
+ Logon Type:  5
+ Restricted Admin Mode: No
+ Virtual Account:  Yes
+ Elevated Token:  Yes
+
+Impersonation Level:  Delegation
+
+New Logon:
+ Security ID:  Domain_E\user_b
+ Account Name:  user_b
+ Account Domain:  Domain_E
+ Logon ID:  0x3A81
+ Linked Logon ID:  989F
+ Network Account Name: -
+ Network Account Domain: -
+ Logon GUID:  {00000000-0000-0000-0000-000000000000}
+
+Process Information:
+ Process ID:  0xE57A
+ Process Name:  C:\Windows\System32\example_b.exe
+
+Network Information:
+ Workstation Name: ACME-001
+ Source Network Address: -
+ Source Port:  36886
+
+Detailed Authentication Information:
+ Logon Process:  logonProcess1 
+ Authentication Package: Kerberos
+ Transited Services: -
+ Package Name (NTLM only): -
+ Key Length:  0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as 061BC.exe or 061BC.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+ - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+ - Transited services indicate which intermediate services have participated in this logon request.
+ - Package name indicates which sub-protocol was used among the NTLM protocols.
+ - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",,Logon,,,,17,13,41,march,32,monday,2020,local,"ACME-001",,,,,,,,,false,,,,"Domain_E","ACME-001",,untrust,,false,false,false,,"ACME-001",,,,,,,,,false,,,,"ACME-001",,untrust,,false,false,false,,965535190,"windows_logon_success wineventlog_security wineventlog_windows winsec","ACME-001",965535190,,main,,,,72,,,"ACME-001
+user_b","Domain_E\SYSTEM
+Domain_E\user_b","Domain_E\",,"An account was successfully logged on",,WinEventLog,,,,,,,0xE57A,Windows,,,"//_::_==____.====-====_=_____.:__:__\__:__-__:____",,,,0x3A81,informational,0,,,"An account was successfully logged on",4624,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,"ACME-001",,,,,,,,,false,,,,"Domain_E","ACME-001",,untrust,36886,,false,,false,false,"ACME-001",,,,,,,,,,,,,,,,,false,,,,,success,,"An account was successfully logged on",failure,,"authentication
+local
+os
+security
+success
+windows",,,,success,local,,,,"authentication
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_b",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_B",,"user_g",,,,,,,,,,,,,,,,,,,,,"ops-sys-004",,,,,,,,,"-",4673,"A privileged service was called",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0xEB5F,,,,,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+	Logon ID:		0xEB5F
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0xEBB9
+	Process Name:	C:\Windows\System32\example_g.exe
+
+Service Request Information:
+	Privileges:		SeDebugPrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeDebugPrivilege,0xEBB9,"C:\Windows\System32\example_g.exe",,,159069628,,,,,,"Domain_B\user_g","NT Local Security Authority / Authentication Service","LsaRegisterLogonProcess()","Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Sensitive Privilege Use",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:32 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4673
+EventType=0
+Type=Information
+ComputerName=ops-sys-004
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+RecordNumber=159069628
+Keywords=Audit Success
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+	Logon ID:		0xEB5F
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0xEBB9
+	Process Name:	C:\Windows\System32\example_g.exe
+
+Service Request Information:
+	Privileges:		SeDebugPrivilege
+","2020-01-13T17:41:32.000+0000",success,"win:unknown","A privileged service was called.
+
+Subject:
+	Security ID:		Domain_B\user_g
+	Account Name:		user_g
+	Account Domain:		Domain_B
+	Logon ID:		0xEB5F
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0xEBB9
+	Process Name:	C:\Windows\System32\example_g.exe
+
+Service Request Information:
+	Privileges:		SeDebugPrivilege",,"Sensitive Privilege Use",,,,17,13,41,march,32,monday,2020,local,"ops-sys-004",,,,,,,,,false,,,,"Domain_B","ops-sys-004",,untrust,,false,false,false,,"ops-sys-004",,,,,,,,,false,,,,"ops-sys-004",,untrust,,false,false,false,,159069628,"windows_privileged_service_call wineventlog_security wineventlog_windows winsec","ops-sys-004",159069628,,main,,,,30,,,"user_g","Domain_B\user_g","Domain_B\",,"A privileged service was called",,WinEventLog,,,,,"Debug programs",SeDebugPrivilege,,Windows,,,"//_::_==___.====--=__===_=____.:t_:tt\t_:ttt_:ttt_",,,,0xEB5F,informational,0,,,"A privileged service was called",4673,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_B",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"A privileged service was called",failure,,"execute
+os
+privileged
+process
+security
+start
+success
+windows",,,,success,,,,,"execute
+os
+privileged
+process
+security
+start
+windows",,,,,,,,,,,,,,,22,0,,"user_g",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,SeDebugPrivilege,
+,"Domain_E",,"user_c",,,,,,,,,,,,,,,,,,,,,"SE-005",,,,,,,,,"-",4672,"Special privileges assigned to new logon",0,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x5FC9,,,,,,,,,"Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_E\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_E
+	Logon ID:		0x5FC9
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",,,,,,,,,,,,,,,Info,,,,,,,,,,,SeSecurityPrivilege,,,,,941822906,,,,,,"Domain_E\user_c",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"Special Logon",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:32 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=SE-005
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=941822906
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_E\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_E
+	Logon ID:		0x5FC9
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+","2020-01-13T17:41:32.000+0000",success,"win:unknown","Special privileges assigned to new logon.
+Subject:
+	Security ID:		Domain_E\user_c
+	Account Name:		user_c
+	Account Domain:		Domain_E
+	Logon ID:		0x5FC9
+Privileges:	SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",,"Special Logon",,,,17,13,41,march,32,monday,2020,local,"SE-005",,,,,,,,,false,,,,"Domain_E","SE-005",,untrust,,false,false,false,,"SE-005",,,,,,,,,false,,,,"SE-005",,untrust,,false,false,false,,941822906,"windows_special_privileges wineventlog_security wineventlog_windows winsec","SE-005",941822906,,main,,,,26,,,"user_c","Domain_E\user_c","Domain_E\",,"Special privileges assigned to new logon",,WinEventLog,,,,,"Manage auditing and security log
+Take ownership of files or other objects
+Load and unload device drivers
+Back up files and directories
+Restore files and directories
+Debug programs
+Modify firmware environment values
+Impersonate a Client After Authentication","SeSecurityPrivilege
+SeTakeOwnershipPrivilege
+SeLoadDriverPrivilege
+SeBackupPrivilege
+SeRestorePrivilege
+SeDebugPrivilege
+SeSystemEnvironmentPrivilege
+SeImpersonatePrivilege",,Windows,,,"//_::_==___.====-=_===_=_____.:t_:tt\t_:ttt_:ttt_:",,,,0x5FC9,informational,0,,,"Special privileges assigned to new logon",4672,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"Special privileges assigned to new logon",failure,,"audit
+authentication
+os
+privileged
+security
+success
+windows",,,,success,,,,,"authentication
+os
+privileged
+security
+windows",,audit,,,,,,,,,,,,,22,0,,"user_c",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,"SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege",
+,"Domain_A
+Domain_A","<never>","user_a
+user_f",,,,,"-",,,,,,,,"Account Management",,,,,,,,"SE-001",,,fff,,,,,,"-",4720,"A user account was created",0,,,,,,,"\f","<value not set>",,,,,,,,"Audit Success",,,,,Security,,,,All,0x6C10,,,,"SAM Account Name: user_g
+	Display Name: fff
+	User Principal Name: ddd@BBB.local
+	Home Directory: \f
+	Home Drive: <value not set>
+	Script Path: \f
+	Profile Path: \a
+	User Workstations: <value not set>
+	Password Last Set: <never>
+	Account Expires: <never>
+	Primary Group ID: 971
+	Allowed To Delegate To: -
+	Old UAC Value: EAF8C6E
+	New UAC Value: 8787090
+	User Account Control: ENCRYPTED_TEXT_PWD_ALLOWED - Enabled
+	User Parameters: <value not set>
+	SID History: Domain_a/aaa
+	Logon Hours: All",,,,,"A User account was created. 
+Subject: 
+	Security ID: Domain_A\user_a
+	Account Name: user_a
+	Account Domain: Domain_A
+	Logon ID: 0x6C10
+New Account: 
+	Security ID: Domain_A\user_f
+	Account Name: user_f
+	Account Domain: Domain_A
+Attributes: 
+	SAM Account Name: user_g
+	Display Name: fff
+	User Principal Name: ddd@BBB.local
+	Home Directory: \f
+	Home Drive: <value not set>
+	Script Path: \f
+	Profile Path: \a
+	User Workstations: <value not set>
+	Password Last Set: <never>
+	Account Expires: <never>
+	Primary Group ID: 971
+	Allowed To Delegate To: -
+	Old UAC Value: EAF8C6E
+	New UAC Value: 8787090
+	User Account Control: ENCRYPTED_TEXT_PWD_ALLOWED - Enabled
+	User Parameters: <value not set>
+	SID History: Domain_a/aaa
+	Logon Hours: All
+Additional Information:
+	Privileges SeImpersonatePrivilege",,,,,,,,,,,,8787090,,EAF8C6E,Info,,,,"<never>",,,,971,,,,,,"\a",,394803946,,,"user_g","Domain_a/aaa","\f","Domain_A\user_a
+Domain_A\user_f",,,"Microsoft Windows security auditing.",,,,,,,,,,,,,,,,,"User Account Management",,,,,Information,,"ENCRYPTED_TEXT_PWD_ALLOWED - Enabled",,,"<value not set>","ddd@BBB.local","<value not set>",,,,,"01/13/2020 05:41:30 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4720
+EventType=0
+Type=Information
+ComputerName=SE-001
+TaskCategory=User Account Management
+OpCode=Info
+RecordNumber=394803946
+Keywords=Audit Success
+Message=A User account was created. 
+Subject: 
+	Security ID: Domain_A\user_a
+	Account Name: user_a
+	Account Domain: Domain_A
+	Logon ID: 0x6C10
+New Account: 
+	Security ID: Domain_A\user_f
+	Account Name: user_f
+	Account Domain: Domain_A
+Attributes: 
+	SAM Account Name: user_g
+	Display Name: fff
+	User Principal Name: ddd@BBB.local
+	Home Directory: \f
+	Home Drive: <value not set>
+	Script Path: \f
+	Profile Path: \a
+	User Workstations: <value not set>
+	Password Last Set: <never>
+	Account Expires: <never>
+	Primary Group ID: 971
+	Allowed To Delegate To: -
+	Old UAC Value: EAF8C6E
+	New UAC Value: 8787090
+	User Account Control: ENCRYPTED_TEXT_PWD_ALLOWED - Enabled
+	User Parameters: <value not set>
+	SID History: Domain_a/aaa
+	Logon Hours: All
+Additional Information:
+	Privileges SeImpersonatePrivilege
+","2020-01-13T17:41:30.000+0000",created,"win:unknown","A User account was created. 
+Subject: 
+	Security ID: Domain_A\user_a
+	Account Name: user_a
+	Account Domain: Domain_A
+	Logon ID: 0x6C10
+New Account: 
+	Security ID: Domain_A\user_f
+	Account Name: user_f
+	Account Domain: Domain_A
+Attributes: 
+	SAM Account Name: user_g
+	Display Name: fff
+	User Principal Name: ddd@BBB.local
+	Home Directory: \f
+	Home Drive: <value not set>
+	Script Path: \f
+	Profile Path: \a
+	User Workstations: <value not set>
+	Password Last Set: <never>
+	Account Expires: <never>
+	Primary Group ID: 971
+	Allowed To Delegate To: -
+	Old UAC Value: EAF8C6E
+	New UAC Value: 8787090
+	User Account Control: ENCRYPTED_TEXT_PWD_ALLOWED - Enabled
+	User Parameters: <value not set>
+	SID History: Domain_a/aaa
+	Logon Hours: All
+Additional Information:
+	Privileges SeImpersonatePrivilege",,"User Account Management",user,,,17,13,41,march,30,monday,2020,local,"SE-001",,,,,,,,,false,,,,"Domain_A","SE-001",,untrust,,false,false,false,,"SE-001",,,,,,,,,false,,,,"SE-001",,untrust,,false,false,false,,394803946,"windows_account_created windows_account_management wineventlog_security wineventlog_windows winsec","SE-001",394803946,,main,,,,43,,,"user_a
+user_f","Domain_A\user_a
+Domain_A\user_f","Domain_A\",,"A user account was created",,WinEventLog,user,,,,,,,Windows,,,"//_::_==___.====-=__===_=____._:_t_:_\t_:_t_:_t_:_",,,,0x6C10,informational,0,,,"A user account was created",4720,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_A",,,,,,,,,,"user_a",,,,,,,,,,,,,,,,,false,,,,,success,,"A user account was created",failure,"Account Management","account
+add
+change
+management
+os
+security
+windows",,,,,,,,,"account
+add
+change
+management
+os
+security
+windows",,,,,,,,,,,,,,,22,0,,"user_f",,,,,,971,,,,,,,,,,,,,false,,,,,Microsoft,,
+,"Domain_D",,"user_e",,,,,,,,,,,,,,,,,,,,,"BUSDEV-008",,,,,,,,,"-",1102,"The audit log was cleared",4,,,,,,,,,,,,,,,,"Audit Success",,,,,Security,,,,,0x0452,,,,,,,,,"The audit log was cleared.
+Subject:
+	Security ID:		Domain_D\user_e
+	Account Name:		user_e
+	Account Domain:		Domain_D
+	Logon ID:		0x0452",,,,,,,,,,,,,,,Info,,,,,,,,,,,,,,,,610991953,,,,,,"Domain_D\user_e",,,"Microsoft-Windows-Eventlog",,,,,,,,,,,,,,,,,"Log clear",,,,,Information,,,,,,,,,,,,"01/13/2020 05:41:29 PM
+LogName=Security
+SourceName=Microsoft-Windows-Eventlog
+EventCode=1102
+EventType=4
+Type=Information
+ComputerName=BUSDEV-008
+TaskCategory=Log clear
+OpCode=Info
+RecordNumber=610991953
+Keywords=Audit Success
+Message=The audit log was cleared.
+Subject:
+	Security ID:		Domain_D\user_e
+	Account Name:		user_e
+	Account Domain:		Domain_D
+	Logon ID:		0x0452
+","2020-01-13T17:41:29.000+0000",cleared,"win:unknown","The audit log was cleared.
+Subject:
+	Security ID:		Domain_D\user_e
+	Account Name:		user_e
+	Account Domain:		Domain_D
+	Logon ID:		0x0452",,"Log clear",audit,,,17,13,41,march,29,monday,2020,local,"BUSDEV-008",,,,,,,,,false,,,,"Domain_D","BUSDEV-008",,untrust,,false,false,false,,"BUSDEV-008",,,,,,,,,false,,,,"BUSDEV-008",,untrust,,false,false,false,,610991953,"windows_audit_log_cleared wineventlog_security wineventlog_windows winsec","BUSDEV-008",610991953,,main,,,,18,,,"user_e","Domain_D\user_e","Domain_D\",,"The audit log was cleared",,WinEventLog,audit,,,,,,,Windows,,,"//_::_==--====-=_===_=____.:t_:tt\t_:ttt_:ttt_:tt",,,,0x0452,informational,4,,,"The audit log was cleared",1102,"WinEventLog:Security",WinEventLog,"prd-p-lvb3bpcl8bts",,,,,,,,,,,,,,,"Domain_D",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,success,,"The audit log was cleared",failure,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,"audit
+change
+cleared
+delete
+endpoint
+os
+security
+watchlist
+windows",,,,,,,,,,,,,,,22,0,,"user_e",,,,,,,,,,,,,,,,,,,false,,,,,Microsoft,,

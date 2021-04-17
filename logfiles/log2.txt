@@ -1,0 +1,238 @@
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:26:39 PROD-POS-003  groupadd[114]: group added to /etc/gshadow: name=webalizer
+","2020-01-13T17:26:39.000+0000",,,,,,,,17,13,26,july,39,monday,2020,local,"PROD-POS-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-POS-003",,main,,,,2,,,webalizer,,,,,,114,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-POS-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:26:03 PROD-MFS-006  groupadd[145]: group added to /etc/group: name=usrpqr
+","2020-01-13T17:26:03.000+0000",,,,,,,,17,13,26,july,3,monday,2020,local,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-006",,main,,,,2,,,usrpqr,,,,,,145,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:25:17 PROD-MFS-001  groupadd[41]: group added to /etc/gshadow: name=ftpuser
+","2020-01-13T17:25:17.000+0000",,,,,,,,17,13,25,july,17,monday,2020,local,"PROD-MFS-001",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-001",,main,,,,2,,,ftpuser,,,,,,41,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-001",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:24:09 ops-sys-005  groupadd[79]: group added to /etc/gshadow: name=pcap
+","2020-01-13T17:24:09.000+0000",,,,,,,,17,13,24,july,9,monday,2020,local,"ops-sys-005",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"ops-sys-005",,main,,,,2,,,pcap,,,,,,79,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"ops-sys-005",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:23:30 BUSDEV-002  groupadd[56]: group added to /etc/gshadow: name=bin
+","2020-01-13T17:23:30.000+0000",,,,,,,,17,13,23,july,30,monday,2020,local,"BUSDEV-002",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-002",,main,,,,2,,,bin,,,,,,56,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-002",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:22:32 PROD-MFS-006  groupadd[143]: group added to /etc/gshadow: name=adm
+","2020-01-13T17:22:32.000+0000",,,,,,,,17,13,22,july,32,monday,2020,local,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-006",,main,,,,2,,,adm,,,,,,143,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:20:40 PROD-POS-002  groupadd[150]: group added to /etc/group: name=daemon
+","2020-01-13T17:20:40.000+0000",,,,,,,,17,13,20,july,40,monday,2020,local,"PROD-POS-002",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-POS-002",,main,,,,2,,,daemon,,,,,,150,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-POS-002",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:19:11 COREDEV-006  groupadd[140]: group added to /etc/gshadow: name=root
+","2020-01-13T17:19:11.000+0000",,,,,,,,17,13,19,july,11,monday,2020,local,"COREDEV-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"COREDEV-006",,main,,,,2,,,root,,,,,,140,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"COREDEV-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:17:47 PROD-POS-005  groupadd[148]: group added to /etc/gshadow: name=mail
+","2020-01-13T17:17:47.000+0000",,,,,,,,17,13,17,july,47,monday,2020,local,"PROD-POS-005",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-POS-005",,main,,,,2,,,mail,,,,,,148,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-POS-005",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:17:46 SE-002  groupadd[145]: group added to /etc/gshadow: name=nobody
+","2020-01-13T17:17:46.000+0000",,,,,,,,17,13,17,july,46,monday,2020,local,"SE-002",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"SE-002",,main,,,,2,,,nobody,,,,,,145,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"SE-002",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:16:42 BUSDEV-006  groupadd[22]: group added to /etc/group: name=usr3
+","2020-01-13T17:16:42.000+0000",,,,,,,,17,13,16,july,42,monday,2020,local,"BUSDEV-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-006",,main,,,,2,,,usr3,,,,,,22,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:16:28 PROD-MFS-003  groupadd[115]: group added to /etc/group: name=dbus
+","2020-01-13T17:16:28.000+0000",,,,,,,,17,13,16,july,28,monday,2020,local,"PROD-MFS-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-003",,main,,,,2,,,dbus,,,,,,115,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:14:39 ops-sys-004  groupadd[17]: group added to /etc/group: name=nobody
+","2020-01-13T17:14:39.000+0000",,,,,,,,17,13,14,july,39,monday,2020,local,"ops-sys-004",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"ops-sys-004",,main,,,,2,,,nobody,,,,,,17,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"ops-sys-004",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:14:33 HOST-006  groupadd[10]: group added to /etc/gshadow: name=vcsa
+","2020-01-13T17:14:33.000+0000",,,,,,,,17,13,14,july,33,monday,2020,local,"HOST-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"HOST-006",,main,,,,2,,,vcsa,,,,,,10,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"HOST-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:14:17 BUSDEV-006  groupadd[20]: group added to /etc/group: name=mail
+","2020-01-13T17:14:17.000+0000",,,,,,,,17,13,14,july,17,monday,2020,local,"BUSDEV-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-006",,main,,,,2,,,mail,,,,,,20,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:12:30 PROD-POS-001  groupadd[156]: group added to /etc/gshadow: name=operator
+","2020-01-13T17:12:30.000+0000",,,,,,,,17,13,12,july,30,monday,2020,local,"PROD-POS-001",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-POS-001",,main,,,,2,,,operator,,,,,,156,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-POS-001",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:11:41 HOST-003  groupadd[139]: group added to /etc/group: name=vcsa
+","2020-01-13T17:11:41.000+0000",,,,,,,,17,13,11,july,41,monday,2020,local,"HOST-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"HOST-003",,main,,,,2,,,vcsa,,,,,,139,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"HOST-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:11:38 BUSDEV-005  groupadd[78]: group added to /etc/gshadow: name=mailnull
+","2020-01-13T17:11:38.000+0000",,,,,,,,17,13,11,july,38,monday,2020,local,"BUSDEV-005",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-005",,main,,,,2,,,mailnull,,,,,,78,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-005",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:11:14 SE-003  groupadd[97]: group added to /etc/group: name=newuser
+","2020-01-13T17:11:14.000+0000",,,,,,,,17,13,11,july,14,monday,2020,local,"SE-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"SE-003",,main,,,,2,,,newuser,,,,,,97,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"SE-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:11:14 SE-002  groupadd[99]: group added to /etc/gshadow: name=squid
+","2020-01-13T17:11:14.000+0000",,,,,,,,17,13,11,july,14,monday,2020,local,"SE-002",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"SE-002",,main,,,,2,,,squid,,,,,,99,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"SE-002",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:11:08 PROD-MFS-005  groupadd[146]: group added to /etc/gshadow: name=sync
+","2020-01-13T17:11:08.000+0000",,,,,,,,17,13,11,july,8,monday,2020,local,"PROD-MFS-005",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-005",,main,,,,2,,,sync,,,,,,146,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-005",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:10:50 PROD-MFS-004  groupadd[83]: group added to /etc/group: name=mailnull
+","2020-01-13T17:10:50.000+0000",,,,,,,,17,13,10,july,50,monday,2020,local,"PROD-MFS-004",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"PROD-MFS-004",,main,,,,2,,,mailnull,,,,,,83,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"PROD-MFS-004",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:08:56 COREDEV-006  groupadd[36]: group added to /etc/group: name=pcap
+","2020-01-13T17:08:56.000+0000",,,,,,,,17,13,8,july,56,monday,2020,local,"COREDEV-006",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"COREDEV-006",,main,,,,2,,,pcap,,,,,,36,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"COREDEV-006",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:08:53 BUSDEV-008  groupadd[106]: group added to /etc/group: name=usr4
+","2020-01-13T17:08:53.000+0000",,,,,,,,17,13,8,july,53,monday,2020,local,"BUSDEV-008",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-008",,main,,,,2,,,usr4,,,,,,106,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-008",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:08:10 SE-003  groupadd[66]: group added to /etc/gshadow: name=uucp
+","2020-01-13T17:08:10.000+0000",,,,,,,,17,13,8,july,10,monday,2020,local,"SE-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"SE-003",,main,,,,2,,,uucp,,,,,,66,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"SE-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:08:08 ops-sys-003  groupadd[134]: group added to /etc/group: name=haldaemon
+","2020-01-13T17:08:08.000+0000",,,,,,,,17,13,8,july,8,monday,2020,local,"ops-sys-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"ops-sys-003",,main,,,,2,,,haldaemon,,,,,,134,,groupadd,,,,,"__::_--__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"ops-sys-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:07:46 BUSDEV-003  groupadd[44]: group added to /etc/group: name=mail
+","2020-01-13T17:07:46.000+0000",,,,,,,,17,13,7,july,46,monday,2020,local,"BUSDEV-003",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"BUSDEV-003",,main,,,,2,,,mail,,,,,,44,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"BUSDEV-003",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:07:39 COREDEV-004  groupadd[45]: group added to /etc/gshadow: name=vcsa
+","2020-01-13T17:07:39.000+0000",,,,,,,,17,13,7,july,39,monday,2020,local,"COREDEV-004",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"COREDEV-004",,main,,,,2,,,vcsa,,,,,,45,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"COREDEV-004",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Jan 13 17:07:31 ACME-005  groupadd[73]: group added to /etc/gshadow: name=operator
+","2020-01-13T17:07:31.000+0000",,,,,,,,17,13,7,july,31,monday,2020,local,"ACME-005",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"groupadd nix-all-logs",,"ACME-005",,main,,,,2,,,operator,,,,,,73,,groupadd,,,,,"__::_-__[]:____//:_=",,,,,,,,,syslog,syslog,"prd-p-lvb3bpcl8bts",,"ACME-005",,,,,,,,,false,,,,,,untrust,,,false,,false,false,,,,,,,,,,,,,,,,,,,,,,,,,,"account
+add
+change
+management",,,,,,"account
+add
+change
+management",,,,,,,,,,,,,,,15,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

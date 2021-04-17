@@ -1,0 +1,37 @@
+DATE            IP              USER    ACTIVITY
+01/13/19	42.34.65.34	billy	Login
+01/13/19	42.34.65.34	billy	Add Items to Cart
+01/13/19	42.34.65.34	billy	Checkout
+01/13/19	42.34.65.34	billy	Search
+01/13/19	42.34.65.34	billy	Logout
+01/13/19	110.34.34.22	Sheila	Login
+01/13/19	110.34.34.22	Sheila	Logout
+01/14/19	67.65.123.23	TimmyT	Login
+01/15/19	67.65.123.23	TimmyT	Add Items to Cart
+01/16/19	42.34.65.34	billy	Login
+01/17/19	42.34.65.34	billy	Add Items to Cart
+01/18/19	42.34.65.34	billy	Checkout
+01/19/19	42.34.65.34	billy	Search
+01/20/19	42.34.65.34	billy	Logout
+01/21/19	110.34.34.22	Sheila	Login
+01/22/19	110.34.34.22	Sheila	Logout
+01/23/19	67.65.123.23	TimmyT	Login
+01/24/19	67.65.123.23	TimmyT	Add Items to Cart
+01/25/19	42.34.65.34	billy	Login
+01/26/19	42.34.65.34	billy	Add Items to Cart
+01/27/19	42.34.65.34	billy	Checkout
+01/28/19	42.34.65.34	billy	Search
+01/29/19	42.34.65.34	billy	Logout
+01/30/19	110.34.34.22	Sheila	Login
+01/31/19	110.34.34.22	Sheila	Logout
+02/01/19	67.65.123.23	TimmyT	Login
+02/02/19	67.65.123.23	TimmyT	Add Items to Cart
+02/03/19	42.34.65.34	billy	Login
+02/04/19	42.34.65.34	billy	Add Items to Cart
+02/05/19	42.34.65.34	billy	Checkout
+02/06/19	42.34.65.34	billy	Search
+02/07/19	42.34.65.34	billy	Logout
+02/08/19	110.34.34.22	Sheila	Login
+02/09/19	110.34.34.22	Sheila	Logout
+02/10/19	67.65.123.23	TimmyT	Login
+02/11/19	67.65.123.23	TimmyT	Add Items to Cart

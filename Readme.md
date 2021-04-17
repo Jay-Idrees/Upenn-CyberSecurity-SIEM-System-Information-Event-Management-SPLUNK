@@ -26,7 +26,7 @@
     
     - Network security events: For example, a `DHCP starvation attack` occurs in which the DHCP server receives thousands of requests in a short period of time, `consuming all available IP addresses`.
     
-4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`. 
+4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`.  Example: [IDS Fortniet](logfiles\log1.txt)
   
     Security events that can be identified by these logs include:
       - Endpoint events: For example, a `user accidentally downloads malware` onto their laptop from a phishing email.
@@ -38,3 +38,10 @@ Logs vary in format: A few examples:
   - Log 1: `User TJones Successfully Authenticated to 10.182.12.35 from client 43.10.8.22` 
 
   - Log 2: `43.182.12.35 New Client Connection 84.10.8.22  on account: PSmith: Success`
+
+  As the formats are different for the logs. We can use **log parsing**: Converting a single string as shown above into fields of structured data, Once that is done the logs can be rearranged into a uniform structure called **log normalization**. We may also have to change the timing format to military vs standard 12hr format
+
+  - Log 1:  `User |TJones| Successfully Authenticated | to |10.182.12.35 |from client |43.10.8.22|`
+
+
+- Log 2: `43.182.12.35|  New Client Connection |84.10.8.22|  on account:| PSmith| : Success`
