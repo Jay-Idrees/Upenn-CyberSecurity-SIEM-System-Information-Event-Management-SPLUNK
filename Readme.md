@@ -7,9 +7,15 @@
 1. **SIM**- Seurity information management - collecting logs in a central location
 2. **SEM**- Security event management- analyzing logs for event monitoring, co-relation and rule creation etc
 
+It is a single software system that help to automatethe processes of **aggregate, parse and normalize** logs
+
+- When logs are loaded into SIEM software, they are automatically parsed and normalized, with all the field headers identified.
+
+
 ## Types of Logs
 
 - Logs contain entties that represent sepecific events occurring on a network or device. **log aggregation** is when the logs are gathered together from multiple sources
+
 
 
 1.  **Operating system logs** are created on devices such as `Linux and Windows` systems. 
