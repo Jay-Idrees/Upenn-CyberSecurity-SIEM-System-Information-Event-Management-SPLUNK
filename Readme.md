@@ -104,7 +104,24 @@ DATE            IP              USER    ACTIVITY
     
     - Network security events: For example, a `DHCP starvation attack` occurs in which the DHCP server receives thousands of requests in a short period of time, `consuming all available IP addresses`.
     
-4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`.  Example: `log1.txt`, logs documenting user activity
+4. **Security device logs** are created on devices such as `IDS/IPS, firewalls, endpoint devices, and honeypots`.  Example: `log1.txt`
+```
+"2020-01-13T17:21:54.000+0000",detected,,10725,"Oracle.9i.TNS.OneByte.DoS",,"N/A",DoS,,,"DoS: Oracle.9i.TNS.OneByte.DoS",1,,"2019-06-05",17,13,21,Maruary,54,monday,2020,local,"128.241.220.82",,,,,,,,"128.241.220.82",false,,,,,,untrust,1521,,false,,false,false,FG300B3909600791,"FORTINET-01",,"128.241.220.82","PCI-APP-DB",1521,"FORTINET-01",,,,,,,,FG300B3909600791,,false,,,,,,untrust,,false,false,false,,0419016384,"fortinet fortinet_ips",detected,detected,signature,ips,"N/A","127.0.0.1",0,network,"NON-PCI-WEB",651335741,main,,,,2,0419016384,,,"DoS: Oracle.9i.TNS.OneByte.DoS",,,,"PCI-APP-DB",,,302,alert,,IPS,"N/A","N/A","N/A",6,,,"__::_-_=--,=::,=-,=,=,=,=,=,=,=""/"",=""/"",=""/"",=""/"",",,"http://www.fortinet.com/ids/VID10725",,"all_default_pass",1259658504,"1521/tcp",critical,,,"DoS: Oracle.9i.TNS.OneByte.DoS","sample.ips.fortinet",fortinet,"prd-p-lvb3bpcl8bts",,"12.130.60.5",,,,,,,,"NON-PCI-WEB","12.130.60.5",false,,,,,,untrust,13611,,false,,false,false,detected,,signature,"attack
+firewall
+ids
+network",,,,,,"attack
+firewall
+ids
+network",,,,,,,,,,,"13:32:41",16,0,tcp,6,ips,"N/A",,,,,,,,,,,,,,,,,,false,,,,,root,Fortinet,
+"Mar 13 17:21:45 fortinet-01 date=2019-06-05,time=14:46:43,devname=FORTINET-01,device_id=FG300B3909600791,log_id=0419016384,type=ips,subtype=signature,pri=alert,severity=medium,carrier_ep=""N/A"",profilegroup=""N/A"",profiletype=""N/A"",profile=""N/A"",src=12.130.60.4,dst=59.162.167.100,src_int=""NON-PCI-WEB"",dst_int=""PCI-APP-DB"",policyid=302,identidx=0,serial=1259985200,status=detected,proto=6,service=1521/tcp,vd=""root"",count=1,attack_name=Oracle.9i.TNS.OneByte.DoS,src_port=59495,dst_port=1521,attack_id=10725,sensor=""all_default_pass"",ref=""http://www.fortinet.com/ids/VID10725"",user=""N/A"",group=""N/A"",incident_serialno=651335750,msg=""DoS: Oracle.9i.TNS.OneByte.DoS""
+","2020-01-13T17:21:45.000+0000",detected,,10725,"Oracle.9i.TNS.OneByte.DoS",,"N/A",DoS,,,"DoS: Oracle.9i.TNS.OneByte.DoS",1,,"2019-06-05",17,13,21,Maruary,45,monday,2020,local,"59.162.167.100",,,,,,,,"59.162.167.100",false,,,,,,untrust,1521,,false,,false,false,FG300B3909600791,"FORTINET-01",,"59.162.167.100","PCI-APP-DB",1521,"FORTINET-01",,,,,,,,FG300B3909600791,,false,,,,,,untrust,,false,false,false,,0419016384,"fortinet fortinet_ips",detected,detected,signature,ips,"N/A","127.0.0.1",0,network,"NON-PCI-WEB",651335750,main,,,,2,0419016384,,,"DoS: Oracle.9i.TNS.OneByte.DoS",,,,"PCI-APP-DB",,,302,alert,,IPS,"N/A","N/A","N/A",6,,,"__::_-_=--,=::,=-,=,=,=,=,=,=,=""/"",=""/"",=""/"",=""/"",",,"http://www.fortinet.com/ids/VID10725",,"all_default_pass",1259985200,"1521/tcp",critical,,,"DoS: Oracle.9i.TNS.OneByte.DoS","sample.ips.fortinet",fortinet,"prd-p-lvb3bpcl8bts",,"12.130.60.4",,,,,,,,"NON-PCI-WEB","12.130.60.4",false,,,,,,untrust,59495,,false,,false,false,detected,,signature,"attack
+firewall
+ids
+network",,,,,,"attack
+firewall
+ids
+```
+
   
     Security events that can be identified by these logs include:
       - Endpoint events: For example, a `user accidentally downloads malware` onto their laptop from a phishing email.
