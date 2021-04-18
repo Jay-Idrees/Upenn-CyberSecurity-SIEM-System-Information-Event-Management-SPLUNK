@@ -217,4 +217,4 @@ Server errors (500–599)
    - What is the name of the SIEM product you selected?
    - What is the name of the SIEM vendor organization?
    - What are the features of this SIEM?
-   - What are the primary advantages of this SIEM?
+   - What are the primary advantages of this SIEM ?
