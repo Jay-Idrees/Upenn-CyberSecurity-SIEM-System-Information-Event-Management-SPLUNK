@@ -174,3 +174,26 @@ Logs vary in format: A few examples:
     - From the same IP address
     - Within a five-minute period
  
+
+- For the detection of events in web requests its useful to know the response code- typically 200 is what we are looking for as it means success
+Informational responses (100–199)
+Successful responses (200–299)
+Redirects (300–399)
+Client errors (400–499)
+Server errors (500–599)
+
+1. Create an alert when: There was suspicious and unsuccessful web activity from Beijing.
+    - The protocol is HTTP.
+    - The HTTP response code is not 200.
+    - The source IP is from Beijing.
+   
+2. Create an alert when: There were floods of web requests from a single source IP in a short period of time.
+    - The protocol is HTTP.
+    - The same source IP appears more than 50 times within 5 minutes.
+    - This is an estimate and the true setting may be adjusted depending on past attacks.
+   
+3. Create an alert when: There were suspicious successful web requests to access JPG images from IPs outside of the United States.
+    - The protocol is HTTP.
+    - The response code is 200.
+    - The resource contains .jpg in the file name.
+    - The IP address is not from the United States.
