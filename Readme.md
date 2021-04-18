@@ -3,6 +3,10 @@
 - Goals of an organization: confidentiality, integrity and availability
 - Attacks are detected by continues monitoring called **Information security continues monitoring- ISCM**
 
+- This is a technology and is principally comprised of two main components.
+1. **SIM**- Seurity information management - collecting logs in a central location
+2. **SEM**- Security event management- analyzing logs for event monitoring, co-relation and rule creation etc
+
 ## Types of Logs
 
 - Logs contain entties that represent sepecific events occurring on a network or device. **log aggregation** is when the logs are gathered together from multiple sources
@@ -152,3 +156,15 @@ Logs vary in format: A few examples:
    - User Agent: `Mozilla/5.0 (Macintosh; Intel Mac OS X 19_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.23.34.77 Safari/537.36`
    - HTTP Response Code: `200`
    - File Size: `7697`
+
+   ## Creating co-relation rules and alerts
+   - Logs have an enormous number of events recorded. Individual events are less helpful, but the in aggregate they can be co-related into meaningful information. This is called **Login co-relation**
+
+   - Based on expected co-relation of certain types of attacks we can define certain rules. It is often easier to pseudocode before getting deep into creating a rule that will create an alert based on detection of a pattern in the logs that is suspiscious
+
+     Detect:
+    - More than three "Login Failed" 
+    - From the same user
+    - From the same IP address
+    - Within a five-minute period
+ 
