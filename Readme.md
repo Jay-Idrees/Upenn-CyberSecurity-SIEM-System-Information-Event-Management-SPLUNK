@@ -197,3 +197,24 @@ Server errors (500–599)
     - The response code is 200.
     - The resource contains .jpg in the file name.
     - The IP address is not from the United States.
+
+
+    **SIEM Vendors**
+    
+    - RSA NetWitness
+    - AlienVault USM
+    - ELK
+    - IBM Security QRadar
+    - MicroFocus ArcSight ESM
+    - McAfee Enterprise Security Manager
+    - LogRythm 
+    - Splunk Enterprise Security
+    - Solarwinds Log and Event Manager
+    - Securonix
+
+    
+2. Answer the following questions about your SIEM vendor selection. Use Google if necessary. 
+   - What is the name of the SIEM product you selected?
+   - What is the name of the SIEM vendor organization?
+   - What are the features of this SIEM?
+   - What are the primary advantages of this SIEM?
