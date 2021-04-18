@@ -134,9 +134,21 @@ Logs vary in format: A few examples:
 
   - Log 2: `43.182.12.35 New Client Connection 84.10.8.22  on account: PSmith: Success`
 
-  As the formats are different for the logs. We can use **log parsing**: Converting a single string as shown above into fields of structured data, Once that is done the logs can be rearranged into a uniform structure called **log normalization**. We may also have to change the timing format to military vs standard 12hr format
+  Not the source and destination ip. 
+
+  As the formats are different for the logs. We can use **log parsing**: Converting a single string as shown above into fields of structured data, Once that is done the logs can be rearranged into a uniform structure called **log normalization**. We may also have to change the timing format to military vs standard 12hr format. Important to note the source and destination ips an the usernames
 
   - Log 1:  `User |TJones| Successfully Authenticated | to |10.182.12.35 |from client |43.10.8.22|`
 
 
 - Log 2: `43.182.12.35|  New Client Connection |84.10.8.22|  on account:| PSmith| : Success`
+
+- During aggregation and normalization the goal is to extract the following vital information from the logs:
+
+   - Date: `[17/May/2015:10:05:12 +0000]`
+   - IP: `83.149.9.216`
+   - Protocol and Version: `HTTP/1.1`
+   - Resource Requested: `/presentations/logstash `
+   - User Agent: `Mozilla/5.0 (Macintosh; Intel Mac OS X 19_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.23.34.77 Safari/537.36`
+   - HTTP Response Code: `200`
+   - File Size: `7697`
