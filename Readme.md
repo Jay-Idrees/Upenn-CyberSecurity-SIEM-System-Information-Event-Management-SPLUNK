@@ -230,4 +230,4 @@ Server errors (500–599)
 
   Add `| stats count as total` to the end of the search and run the search again.
 
-   > Visualizations
+Splunk can create location-specific reports with the `iplocation` and `geostats` commands. 
