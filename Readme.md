@@ -256,4 +256,4 @@ select save as dashboard pannel
 
 `source="demo_winlogs.csv"| top limit=10 user`
 
-Then you can keep adding various components to the dashboard by selecting the "existing" dashboard
+- Then you can keep adding various components to the dashboard by selecting the "existing" dashboard. Note that the dashboards can also be edited
