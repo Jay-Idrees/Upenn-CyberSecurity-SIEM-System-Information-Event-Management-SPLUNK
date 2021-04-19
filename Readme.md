@@ -249,3 +249,7 @@ Looking at every thing together
 - A statistical chart of the data in the pie chart.
 
 Splunk tool dashboard displays all the infomation together
+
+`source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total`
+
+select save as dashboard pannel
