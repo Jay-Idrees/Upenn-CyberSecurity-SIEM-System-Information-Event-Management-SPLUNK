@@ -235,3 +235,10 @@ Splunk can create location-specific reports with the `iplocation` and `geostats`
 `sourcetype="stream:http" | iplocation src_ip`
 
 `source="demo_httplogs.csv" | iplocation src_ip | geostats count`
+
+Looking at every thing together
+
+- The volume of successful logins on the website.
+- The volume of unsuccessful logins on the website.
+- A geographic map illustrating where the activity is coming from.
+- A pie chart displaying the specific pages of the website that are being accessed.
