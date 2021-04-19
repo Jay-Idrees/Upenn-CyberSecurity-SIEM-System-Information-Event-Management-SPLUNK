@@ -253,3 +253,7 @@ Splunk tool dashboard displays all the infomation together
 `source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total`
 
 select save as dashboard pannel
+
+`source="demo_winlogs.csv"| top limit=10 user`
+
+Then you can keep adding various components to the dashboard by selecting the "existing" dashboard
