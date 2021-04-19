@@ -218,3 +218,16 @@ Server errors (500–599)
    - What is the name of the SIEM vendor organization?
    - What are the features of this SIEM?
    - What are the primary advantages of this SIEM ?
+
+
+   # S P L U N K
+
+   > Splunk commands and queries
+
+  ` source="fortinet_IPS_logs.csv" attack_name="Oracle.9i.TNS.OneByte.DoS"`
+
+`source="fortinet+IPS_log.csv" host="cae59c510a8" sourcetype="csv"
+
+  Add `| stats count as total` to the end of the search and run the search again.
+
+   > Visualizations
