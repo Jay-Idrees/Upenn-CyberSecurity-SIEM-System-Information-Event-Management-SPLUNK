@@ -242,3 +242,10 @@ Looking at every thing together
 - The volume of unsuccessful logins on the website
 - A geographic map illustrating where the activity is coming from
 - A pie chart displaying the specific pages of the website that are being accessed
+
+
+- A radial gauge of successful logins.
+- A pie chart of users logging in.
+- A statistical chart of the data in the pie chart.
+
+Splunk tool dashboard displays all the infomation together
