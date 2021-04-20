@@ -223,6 +223,14 @@ Server errors (500–599)
    # S P L U N K
 
 Splunk SIEM product is called  **Splunk Enterprise Security** or Splunk ES. Advanced monitoring solutions provide additional benifits such as machine learning, AI, automation and response
+**Advanced Monitoring Solutions**
+- User behavior analytics **(UBA)** - Detects abnormalities in user activity- trigers alert when a user deviates from typical behaviour
+
+If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday through Friday, UBA would create an alert if the user logged in on at 2 a.m. on a Saturday.
+
+- User and entity behavior analytics **(UEBA)** - it is expanded UBA to include servers, routers. Creates baseline behaviour and then detects abnormalities
+
+- Security orchestration, automation and response **(SOAR)** Responds to incidents by creating logs and implementing mitigation strategies
 
    > Splunk commands and queries
 
