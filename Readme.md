@@ -222,6 +222,8 @@ Server errors (500–599)
 
    # S P L U N K
 
+Splunk SIEM product is called  **Splunk Enterprise Security** or Splunk ES. Advanced monitoring solutions provide additional benifits such as machine learning, AI, automation and response
+
    > Splunk commands and queries
 
   ` source="fortinet_IPS_logs.csv" attack_name="Oracle.9i.TNS.OneByte.DoS"`
@@ -257,3 +259,5 @@ select save as dashboard pannel
 `source="demo_winlogs.csv"| top limit=10 user`
 
 - Then you can keep adding various components to the dashboard by selecting the "existing" dashboard. Note that the dashboards can also be edited
+
+- For each of the pannels you can select the 
