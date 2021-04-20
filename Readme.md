@@ -232,6 +232,8 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 
 - Security orchestration, automation and response **(SOAR)** Responds to incidents by creating logs and implementing mitigation strategies
 
+- SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
+
    > Splunk commands and queries
 
   ` source="fortinet_IPS_logs.csv" attack_name="Oracle.9i.TNS.OneByte.DoS"`
