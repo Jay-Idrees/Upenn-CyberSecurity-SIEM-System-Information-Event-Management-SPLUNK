@@ -239,11 +239,12 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 ## Addiing data to splunk
 
 - Splunk architechture : The indexer, Search head
-- When data is added to Splunk, it transforms the individual events inside the repositories to called indexes
+- When data is added to Splunk, it transforms the individual events to individual repositories called indexes
+- The searh head allows queries to the search
 
+- Options for uploading data: upload (manually), monitor, forward
 
-
-
+- Once you upload a file Splunk will recognize the fieds and headers and then automates the parsing and normalizing of the logs
 
 
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
