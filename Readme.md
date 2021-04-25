@@ -239,6 +239,7 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 ## Addiing data to splunk
 
 - Splunk architechture : The indexer, Search head
+- When data is added to Splunk, it transforms the individual events inside the repositories to called indexes
 
 
 
