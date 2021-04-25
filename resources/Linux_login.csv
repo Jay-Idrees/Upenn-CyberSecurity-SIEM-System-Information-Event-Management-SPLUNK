@@ -1,0 +1,901 @@
+"_raw","_time",action,app,bunit,category,"change_type",city,country,"date_hour","date_mday","date_minute","date_month","date_second","date_wday","date_year","date_zone",dest,"dest_asset_id","dest_asset_tag","dest_bunit","dest_category","dest_city","dest_country","dest_dns","dest_ip","dest_is_expected","dest_lat","dest_long","dest_mac","dest_nt_host","dest_owner","dest_pci_domain","dest_priority","dest_requires_av","dest_should_timesync","dest_should_update",dns,enabled,eventtype,host,"ids_type",index,ip,"is_expected",lat,linecount,long,mac,"nt_host",object,"object_category",owner,"pci_domain",pid,priority,process,product,protocol,"protocol_name",punct,range,"requires_av",severity,"should_timesync","should_update",signature,source,sourcetype,"splunk_server","splunk_server_group",src,"src_asset_id","src_asset_tag","src_bunit","src_category","src_city","src_country","src_dns","src_ip","src_is_expected","src_lat","src_long","src_mac","src_nt_host","src_owner","src_pci_domain","src_priority","src_requires_av","src_should_timesync","src_should_update",status,"status_description",tag,"tag::action","tag::app","tag::dest_requires_av","tag::dest_should_timesync","tag::dest_should_update","tag::eventtype","tag::is_expected","tag::requires_av","tag::should_timesync","tag::should_update","tag::signature","tag::sourcetype","tag::user_category","tag::user_identity_tag","tag::user_watchlist","threat_intel_source",timeendpos,timestartpos,transport,user,"user_bunit","user_category","user_email","user_endDate","user_first","user_identity","user_identity_tag","user_last","user_managedBy","user_nick","user_phone","user_phone2","user_prefix","user_priority","user_startDate","user_suffix","user_type","user_watchlist","user_work_city","user_work_country","user_work_lat","user_work_long",vendor,"vendor_action","vendor_product"
+"Feb 04 19:27:00 10.11.36.48 auth|security:notice login: [ID 56 auth.notice] Login failure on /dev/pts/56 from 10.11.36.48 
+","2020-02-04T19:27:00.000+0000",failure,login,,,,,,19,4,27,february,0,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.48",,,,,,,,"10.11.36.48",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:26:28 10.11.36.13 auth|security:notice login: [ID 33 auth.notice] Login failure on /dev/pts/33 from 10.11.36.13 
+","2020-02-04T19:26:28.000+0000",failure,login,,,,,,19,4,26,february,28,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.13",,,,,,,,"10.11.36.13",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:26:21 10.11.36.5 auth|security:notice login: [ID 76 auth.notice] Login failure on /dev/pts/76 from 10.11.36.5 
+","2020-02-04T19:26:21.000+0000",failure,login,,,,,,19,4,26,february,21,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.5",,,,,,,,"10.11.36.5",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:26:12 10.11.36.34 auth|security:notice login: [ID 51 auth.notice] Login failure on /dev/pts/51 from 10.11.36.34 
+","2020-02-04T19:26:12.000+0000",failure,login,,,,,,19,4,26,february,12,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.34",,,,,,,,"10.11.36.34",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:26:03 10.11.36.12 auth|security:notice login: [ID 23 auth.notice] Login failure on /dev/pts/23 from 10.11.36.12 
+","2020-02-04T19:26:03.000+0000",failure,login,,,,,,19,4,26,february,3,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.12",,,,,,,,"10.11.36.12",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:26:01 10.11.36.8 auth|security:notice login: [ID 27 auth.notice] Login failure on /dev/pts/27 from 10.11.36.8 
+","2020-02-04T19:26:01.000+0000",failure,login,,,,,,19,4,26,february,1,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.8",,,,,,,,"10.11.36.8",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:25:24 10.11.36.37 auth|security:notice login: [ID 97 auth.notice] Login failure on /dev/pts/97 from 10.11.36.37 
+","2020-02-04T19:25:24.000+0000",failure,login,,,,,,19,4,25,february,24,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.37",,,,,,,,"10.11.36.37",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:25:20 10.11.36.28 auth|security:notice login: [ID 162 auth.notice] Login failure on /dev/pts/162 from 10.11.36.28 
+","2020-02-04T19:25:20.000+0000",failure,login,,,,,,19,4,25,february,20,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.28",,,,,,,,"10.11.36.28",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:25:00 10.11.36.41 auth|security:notice login: [ID 92 auth.notice] Login failure on /dev/pts/92 from 10.11.36.41 
+","2020-02-04T19:25:00.000+0000",failure,login,,,,,,19,4,25,february,0,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.41",,,,,,,,"10.11.36.41",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:46 10.11.36.20 auth|security:notice login: [ID 123 auth.notice] Login failure on /dev/pts/123 from 10.11.36.20 
+","2020-02-04T19:24:46.000+0000",failure,login,,,,,,19,4,24,february,46,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.20",,,,,,,,"10.11.36.20",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:41 10.11.36.3 auth|security:notice login: [ID 164 auth.notice] Login failure on /dev/pts/164 from 10.11.36.3 
+","2020-02-04T19:24:41.000+0000",failure,login,,,,,,19,4,24,february,41,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.3",,,,,,,,"10.11.36.3",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:40 10.11.36.43 auth|security:notice login: [ID 119 auth.notice] Login failure on /dev/pts/119 from 10.11.36.43 
+","2020-02-04T19:24:40.000+0000",failure,login,,,,,,19,4,24,february,40,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.43",,,,,,,,"10.11.36.43",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:39 10.11.36.28 auth|security:notice login: [ID 110 auth.notice] Login failure on /dev/pts/110 from 10.11.36.28 
+","2020-02-04T19:24:39.000+0000",failure,login,,,,,,19,4,24,february,39,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.28",,,,,,,,"10.11.36.28",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:35 10.11.36.43 auth|security:notice login: [ID 48 auth.notice] Login failure on /dev/pts/48 from 10.11.36.43 
+","2020-02-04T19:24:35.000+0000",failure,login,,,,,,19,4,24,february,35,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.43",,,,,,,,"10.11.36.43",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:28 10.11.36.3 auth|security:notice login: [ID 80 auth.notice] Login failure on /dev/pts/80 from 10.11.36.3 
+","2020-02-04T19:24:28.000+0000",failure,login,,,,,,19,4,24,february,28,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.3",,,,,,,,"10.11.36.3",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:26 10.11.36.12 auth|security:notice login: [ID 158 auth.notice] Login failure on /dev/pts/158 from 10.11.36.12 
+","2020-02-04T19:24:26.000+0000",failure,login,,,,,,19,4,24,february,26,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.12",,,,,,,,"10.11.36.12",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:12 10.11.36.35 auth|security:notice login: [ID 150 auth.notice] Login failure on /dev/pts/150 from 10.11.36.35 
+","2020-02-04T19:24:12.000+0000",failure,login,,,,,,19,4,24,february,12,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.35",,,,,,,,"10.11.36.35",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:24:01 10.11.36.33 auth|security:notice login: [ID 59 auth.notice] Login failure on /dev/pts/59 from 10.11.36.33 
+","2020-02-04T19:24:01.000+0000",failure,login,,,,,,19,4,24,february,1,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.33",,,,,,,,"10.11.36.33",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:44 10.11.36.23 auth|security:notice login: [ID 20 auth.notice] Login failure on /dev/pts/20 from 10.11.36.23 
+","2020-02-04T19:23:44.000+0000",failure,login,,,,,,19,4,23,february,44,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.23",,,,,,,,"10.11.36.23",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:39 10.11.36.2 auth|security:notice login: [ID 128 auth.notice] Login failure on /dev/pts/128 from 10.11.36.2 
+","2020-02-04T19:23:39.000+0000",failure,login,,,,,,19,4,23,february,39,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.2",,,,,,,,"10.11.36.2",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:38 10.11.36.25 auth|security:notice login: [ID 11 auth.notice] Login failure on /dev/pts/11 from 10.11.36.25 
+","2020-02-04T19:23:38.000+0000",failure,login,,,,,,19,4,23,february,38,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.25",,,,,,,,"10.11.36.25",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:38 10.11.36.1 auth|security:notice login: [ID 90 auth.notice] Login failure on /dev/pts/90 from 10.11.36.1 
+","2020-02-04T19:23:38.000+0000",failure,login,,,,,,19,4,23,february,38,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.1",,,,,,,,"10.11.36.1",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:26 10.11.36.33 auth|security:notice login: [ID 157 auth.notice] Login failure on /dev/pts/157 from 10.11.36.33 
+","2020-02-04T19:23:26.000+0000",failure,login,,,,,,19,4,23,february,26,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.33",,,,,,,,"10.11.36.33",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:05 10.11.36.6 auth|security:notice login: [ID 87 auth.notice] Login failure on /dev/pts/87 from 10.11.36.6 
+","2020-02-04T19:23:05.000+0000",failure,login,,,,,,19,4,23,february,5,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.6",,,,,,,,"10.11.36.6",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:23:03 10.11.36.40 auth|security:notice login: [ID 58 auth.notice] Login failure on /dev/pts/58 from 10.11.36.40 
+","2020-02-04T19:23:03.000+0000",failure,login,,,,,,19,4,23,february,3,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.40",,,,,,,,"10.11.36.40",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:59 10.11.36.17 auth|security:notice login: [ID 112 auth.notice] Login failure on /dev/pts/112 from 10.11.36.17 
+","2020-02-04T19:22:59.000+0000",failure,login,,,,,,19,4,22,february,59,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.17",,,,,,,,"10.11.36.17",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:50 10.11.36.50 auth|security:notice login: [ID 63 auth.notice] Login failure on /dev/pts/63 from 10.11.36.50 
+","2020-02-04T19:22:50.000+0000",failure,login,,,,,,19,4,22,february,50,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.50",,,,,,,,"10.11.36.50",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:45 10.11.36.24 auth|security:notice login: [ID 87 auth.notice] Login failure on /dev/pts/87 from 10.11.36.24 
+","2020-02-04T19:22:45.000+0000",failure,login,,,,,,19,4,22,february,45,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.24",,,,,,,,"10.11.36.24",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:43 10.11.36.16 auth|security:notice login: [ID 80 auth.notice] Login failure on /dev/pts/80 from 10.11.36.16 
+","2020-02-04T19:22:43.000+0000",failure,login,,,,,,19,4,22,february,43,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.16",,,,,,,,"10.11.36.16",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:36 10.11.36.32 auth|security:notice login: [ID 75 auth.notice] Login failure on /dev/pts/75 from 10.11.36.32 
+","2020-02-04T19:22:36.000+0000",failure,login,,,,,,19,4,22,february,36,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.32",,,,,,,,"10.11.36.32",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:34 10.11.36.39 auth|security:notice login: [ID 59 auth.notice] Login failure on /dev/pts/59 from 10.11.36.39 
+","2020-02-04T19:22:34.000+0000",failure,login,,,,,,19,4,22,february,34,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.39",,,,,,,,"10.11.36.39",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:33 10.11.36.9 auth|security:notice login: [ID 114 auth.notice] Login failure on /dev/pts/114 from 10.11.36.9 
+","2020-02-04T19:22:33.000+0000",failure,login,,,,,,19,4,22,february,33,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.9",,,,,,,,"10.11.36.9",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:32 10.11.36.36 auth|security:notice login: [ID 109 auth.notice] Login failure on /dev/pts/109 from 10.11.36.36 
+","2020-02-04T19:22:32.000+0000",failure,login,,,,,,19,4,22,february,32,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.36",,,,,,,,"10.11.36.36",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:28 10.11.36.3 auth|security:notice login: [ID 69 auth.notice] Login failure on /dev/pts/69 from 10.11.36.3 
+","2020-02-04T19:22:28.000+0000",failure,login,,,,,,19,4,22,february,28,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.3",,,,,,,,"10.11.36.3",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:27 10.11.36.10 auth|security:notice login: [ID 162 auth.notice] Login failure on /dev/pts/162 from 10.11.36.10 
+","2020-02-04T19:22:27.000+0000",failure,login,,,,,,19,4,22,february,27,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.10",,,,,,,,"10.11.36.10",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:21 10.11.36.16 auth|security:notice login: [ID 139 auth.notice] Login failure on /dev/pts/139 from 10.11.36.16 
+","2020-02-04T19:22:21.000+0000",failure,login,,,,,,19,4,22,february,21,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.16",,,,,,,,"10.11.36.16",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:21 10.11.36.32 auth|security:notice login: [ID 121 auth.notice] Login failure on /dev/pts/121 from 10.11.36.32 
+","2020-02-04T19:22:21.000+0000",failure,login,,,,,,19,4,22,february,21,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.32",,,,,,,,"10.11.36.32",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:18 10.11.36.9 auth|security:notice login: [ID 159 auth.notice] Login failure on /dev/pts/159 from 10.11.36.9 
+","2020-02-04T19:22:18.000+0000",failure,login,,,,,,19,4,22,february,18,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.9",,,,,,,,"10.11.36.9",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:14 10.11.36.44 auth|security:notice login: [ID 138 auth.notice] Login failure on /dev/pts/138 from 10.11.36.44 
+","2020-02-04T19:22:14.000+0000",failure,login,,,,,,19,4,22,february,14,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.44",,,,,,,,"10.11.36.44",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:13 10.11.36.23 auth|security:notice login: [ID 61 auth.notice] Login failure on /dev/pts/61 from 10.11.36.23 
+","2020-02-04T19:22:13.000+0000",failure,login,,,,,,19,4,22,february,13,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.23",,,,,,,,"10.11.36.23",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:12 10.11.36.7 auth|security:notice login: [ID 106 auth.notice] Login failure on /dev/pts/106 from 10.11.36.7 
+","2020-02-04T19:22:12.000+0000",failure,login,,,,,,19,4,22,february,12,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.7",,,,,,,,"10.11.36.7",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:07 10.11.36.42 auth|security:notice login: [ID 124 auth.notice] Login failure on /dev/pts/124 from 10.11.36.42 
+","2020-02-04T19:22:07.000+0000",failure,login,,,,,,19,4,22,february,7,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.42",,,,,,,,"10.11.36.42",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:04 10.11.36.17 auth|security:notice login: [ID 19 auth.notice] Login failure on /dev/pts/19 from 10.11.36.17 
+","2020-02-04T19:22:04.000+0000",failure,login,,,,,,19,4,22,february,4,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.17",,,,,,,,"10.11.36.17",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:22:04 10.11.36.40 auth|security:notice login: [ID 69 auth.notice] Login failure on /dev/pts/69 from 10.11.36.40 
+","2020-02-04T19:22:04.000+0000",failure,login,,,,,,19,4,22,february,4,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.40",,,,,,,,"10.11.36.40",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:59 10.11.36.11 auth|security:notice login: [ID 10 auth.notice] Login failure on /dev/pts/10 from 10.11.36.11 
+","2020-02-04T19:21:59.000+0000",failure,login,,,,,,19,4,21,february,59,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.11",,,,,,,,"10.11.36.11",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:57 10.11.36.48 auth|security:notice login: [ID 99 auth.notice] Login failure on /dev/pts/99 from 10.11.36.48 
+","2020-02-04T19:21:57.000+0000",failure,login,,,,,,19,4,21,february,57,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.48",,,,,,,,"10.11.36.48",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:57 10.11.36.28 auth|security:notice login: [ID 17 auth.notice] Login failure on /dev/pts/17 from 10.11.36.28 
+","2020-02-04T19:21:57.000+0000",failure,login,,,,,,19,4,21,february,57,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.28",,,,,,,,"10.11.36.28",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:51 10.11.36.15 auth|security:notice login: [ID 124 auth.notice] Login failure on /dev/pts/124 from 10.11.36.15 
+","2020-02-04T19:21:51.000+0000",failure,login,,,,,,19,4,21,february,51,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.15",,,,,,,,"10.11.36.15",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:51 10.11.36.3 auth|security:notice login: [ID 161 auth.notice] Login failure on /dev/pts/161 from 10.11.36.3 
+","2020-02-04T19:21:51.000+0000",failure,login,,,,,,19,4,21,february,51,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.3",,,,,,,,"10.11.36.3",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:49 10.11.36.4 auth|security:notice login: [ID 22 auth.notice] Login failure on /dev/pts/22 from 10.11.36.4 
+","2020-02-04T19:21:49.000+0000",failure,login,,,,,,19,4,21,february,49,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.4",,,,,,,,"10.11.36.4",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:40 10.11.36.15 auth|security:notice login: [ID 107 auth.notice] Login failure on /dev/pts/107 from 10.11.36.15 
+","2020-02-04T19:21:40.000+0000",failure,login,,,,,,19,4,21,february,40,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.15",,,,,,,,"10.11.36.15",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:36 10.11.36.21 auth|security:notice login: [ID 130 auth.notice] Login failure on /dev/pts/130 from 10.11.36.21 
+","2020-02-04T19:21:36.000+0000",failure,login,,,,,,19,4,21,february,36,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.21",,,,,,,,"10.11.36.21",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:35 10.11.36.4 auth|security:notice login: [ID 144 auth.notice] Login failure on /dev/pts/144 from 10.11.36.4 
+","2020-02-04T19:21:35.000+0000",failure,login,,,,,,19,4,21,february,35,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.4",,,,,,,,"10.11.36.4",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:35 10.11.36.49 auth|security:notice login: [ID 35 auth.notice] Login failure on /dev/pts/35 from 10.11.36.49 
+","2020-02-04T19:21:35.000+0000",failure,login,,,,,,19,4,21,february,35,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.49",,,,,,,,"10.11.36.49",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:34 10.11.36.10 auth|security:notice login: [ID 99 auth.notice] Login failure on /dev/pts/99 from 10.11.36.10 
+","2020-02-04T19:21:34.000+0000",failure,login,,,,,,19,4,21,february,34,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.10",,,,,,,,"10.11.36.10",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:34 10.11.36.9 auth|security:notice login: [ID 27 auth.notice] Login failure on /dev/pts/27 from 10.11.36.9 
+","2020-02-04T19:21:34.000+0000",failure,login,,,,,,19,4,21,february,34,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.9",,,,,,,,"10.11.36.9",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:28 10.11.36.29 auth|security:notice login: [ID 156 auth.notice] Login failure on /dev/pts/156 from 10.11.36.29 
+","2020-02-04T19:21:28.000+0000",failure,login,,,,,,19,4,21,february,28,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.29",,,,,,,,"10.11.36.29",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:27 10.11.36.15 auth|security:notice login: [ID 16 auth.notice] Login failure on /dev/pts/16 from 10.11.36.15 
+","2020-02-04T19:21:27.000+0000",failure,login,,,,,,19,4,21,february,27,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.15",,,,,,,,"10.11.36.15",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:25 10.11.36.49 auth|security:notice login: [ID 167 auth.notice] Login failure on /dev/pts/167 from 10.11.36.49 
+","2020-02-04T19:21:25.000+0000",failure,login,,,,,,19,4,21,february,25,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.49",,,,,,,,"10.11.36.49",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:19 10.11.36.50 auth|security:notice login: [ID 44 auth.notice] Login failure on /dev/pts/44 from 10.11.36.50 
+","2020-02-04T19:21:19.000+0000",failure,login,,,,,,19,4,21,february,19,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.50",,,,,,,,"10.11.36.50",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:17 10.11.36.16 auth|security:notice login: [ID 64 auth.notice] Login failure on /dev/pts/64 from 10.11.36.16 
+","2020-02-04T19:21:17.000+0000",failure,login,,,,,,19,4,21,february,17,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.16",,,,,,,,"10.11.36.16",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:16 10.11.36.39 auth|security:notice login: [ID 100 auth.notice] Login failure on /dev/pts/100 from 10.11.36.39 
+","2020-02-04T19:21:16.000+0000",failure,login,,,,,,19,4,21,february,16,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.39",,,,,,,,"10.11.36.39",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:15 10.11.36.14 auth|security:notice login: [ID 16 auth.notice] Login failure on /dev/pts/16 from 10.11.36.14 
+","2020-02-04T19:21:15.000+0000",failure,login,,,,,,19,4,21,february,15,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.14",,,,,,,,"10.11.36.14",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:09 10.11.36.7 auth|security:notice login: [ID 164 auth.notice] Login failure on /dev/pts/164 from 10.11.36.7 
+","2020-02-04T19:21:09.000+0000",failure,login,,,,,,19,4,21,february,9,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.7",,,,,,,,"10.11.36.7",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:09 10.11.36.30 auth|security:notice login: [ID 40 auth.notice] Login failure on /dev/pts/40 from 10.11.36.30 
+","2020-02-04T19:21:09.000+0000",failure,login,,,,,,19,4,21,february,9,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.30",,,,,,,,"10.11.36.30",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:06 10.11.36.44 auth|security:notice login: [ID 58 auth.notice] Login failure on /dev/pts/58 from 10.11.36.44 
+","2020-02-04T19:21:06.000+0000",failure,login,,,,,,19,4,21,february,6,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.44",,,,,,,,"10.11.36.44",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:06 10.11.36.43 auth|security:notice login: [ID 47 auth.notice] Login failure on /dev/pts/47 from 10.11.36.43 
+","2020-02-04T19:21:06.000+0000",failure,login,,,,,,19,4,21,february,6,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.43",,,,,,,,"10.11.36.43",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:04 10.11.36.13 auth|security:notice login: [ID 40 auth.notice] Login failure on /dev/pts/40 from 10.11.36.13 
+","2020-02-04T19:21:04.000+0000",failure,login,,,,,,19,4,21,february,4,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.13",,,,,,,,"10.11.36.13",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:21:00 10.11.36.2 auth|security:notice login: [ID 51 auth.notice] Login failure on /dev/pts/51 from 10.11.36.2 
+","2020-02-04T19:21:00.000+0000",failure,login,,,,,,19,4,21,february,0,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.2",,,,,,,,"10.11.36.2",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:55 10.11.36.17 auth|security:notice login: [ID 61 auth.notice] Login failure on /dev/pts/61 from 10.11.36.17 
+","2020-02-04T19:20:55.000+0000",failure,login,,,,,,19,4,20,february,55,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.17",,,,,,,,"10.11.36.17",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:52 10.11.36.32 auth|security:notice login: [ID 24 auth.notice] Login failure on /dev/pts/24 from 10.11.36.32 
+","2020-02-04T19:20:52.000+0000",failure,login,,,,,,19,4,20,february,52,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.32",,,,,,,,"10.11.36.32",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:50 10.11.36.31 auth|security:notice login: [ID 50 auth.notice] Login failure on /dev/pts/50 from 10.11.36.31 
+","2020-02-04T19:20:50.000+0000",failure,login,,,,,,19,4,20,february,50,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.31",,,,,,,,"10.11.36.31",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:45 10.11.36.16 auth|security:notice login: [ID 29 auth.notice] Login failure on /dev/pts/29 from 10.11.36.16 
+","2020-02-04T19:20:45.000+0000",failure,login,,,,,,19,4,20,february,45,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.16",,,,,,,,"10.11.36.16",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:39 10.11.36.40 auth|security:notice login: [ID 74 auth.notice] Login failure on /dev/pts/74 from 10.11.36.40 
+","2020-02-04T19:20:39.000+0000",failure,login,,,,,,19,4,20,february,39,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.40",,,,,,,,"10.11.36.40",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:39 10.11.36.28 auth|security:notice login: [ID 121 auth.notice] Login failure on /dev/pts/121 from 10.11.36.28 
+","2020-02-04T19:20:39.000+0000",failure,login,,,,,,19,4,20,february,39,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.28",,,,,,,,"10.11.36.28",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:34 10.11.36.9 auth|security:notice login: [ID 101 auth.notice] Login failure on /dev/pts/101 from 10.11.36.9 
+","2020-02-04T19:20:34.000+0000",failure,login,,,,,,19,4,20,february,34,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.9",,,,,,,,"10.11.36.9",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:32 10.11.36.40 auth|security:notice login: [ID 141 auth.notice] Login failure on /dev/pts/141 from 10.11.36.40 
+","2020-02-04T19:20:32.000+0000",failure,login,,,,,,19,4,20,february,32,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.40",,,,,,,,"10.11.36.40",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:15 10.11.36.19 auth|security:notice login: [ID 38 auth.notice] Login failure on /dev/pts/38 from 10.11.36.19 
+","2020-02-04T19:20:15.000+0000",failure,login,,,,,,19,4,20,february,15,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.19",,,,,,,,"10.11.36.19",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:10 10.11.36.2 auth|security:notice login: [ID 34 auth.notice] Login failure on /dev/pts/34 from 10.11.36.2 
+","2020-02-04T19:20:10.000+0000",failure,login,,,,,,19,4,20,february,10,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.2",,,,,,,,"10.11.36.2",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:07 10.11.36.37 auth|security:notice login: [ID 106 auth.notice] Login failure on /dev/pts/106 from 10.11.36.37 
+","2020-02-04T19:20:07.000+0000",failure,login,,,,,,19,4,20,february,7,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.37",,,,,,,,"10.11.36.37",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:07 10.11.36.44 auth|security:notice login: [ID 12 auth.notice] Login failure on /dev/pts/12 from 10.11.36.44 
+","2020-02-04T19:20:07.000+0000",failure,login,,,,,,19,4,20,february,7,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.44",,,,,,,,"10.11.36.44",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:03 10.11.36.21 auth|security:notice login: [ID 23 auth.notice] Login failure on /dev/pts/23 from 10.11.36.21 
+","2020-02-04T19:20:03.000+0000",failure,login,,,,,,19,4,20,february,3,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.21",,,,,,,,"10.11.36.21",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:02 10.11.36.11 auth|security:notice login: [ID 69 auth.notice] Login failure on /dev/pts/69 from 10.11.36.11 
+","2020-02-04T19:20:02.000+0000",failure,login,,,,,,19,4,20,february,2,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.11",,,,,,,,"10.11.36.11",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:20:01 10.11.36.33 auth|security:notice login: [ID 21 auth.notice] Login failure on /dev/pts/21 from 10.11.36.33 
+","2020-02-04T19:20:01.000+0000",failure,login,,,,,,19,4,20,february,1,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.33",,,,,,,,"10.11.36.33",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:59 10.11.36.26 auth|security:notice login: [ID 120 auth.notice] Login failure on /dev/pts/120 from 10.11.36.26 
+","2020-02-04T19:19:59.000+0000",failure,login,,,,,,19,4,19,february,59,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.26",,,,,,,,"10.11.36.26",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:57 10.11.36.44 auth|security:notice login: [ID 22 auth.notice] Login failure on /dev/pts/22 from 10.11.36.44 
+","2020-02-04T19:19:57.000+0000",failure,login,,,,,,19,4,19,february,57,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.44",,,,,,,,"10.11.36.44",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:56 10.11.36.12 auth|security:notice login: [ID 159 auth.notice] Login failure on /dev/pts/159 from 10.11.36.12 
+","2020-02-04T19:19:56.000+0000",failure,login,,,,,,19,4,19,february,56,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.12",,,,,,,,"10.11.36.12",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:55 10.11.36.17 auth|security:notice login: [ID 128 auth.notice] Login failure on /dev/pts/128 from 10.11.36.17 
+","2020-02-04T19:19:55.000+0000",failure,login,,,,,,19,4,19,february,55,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.17",,,,,,,,"10.11.36.17",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:53 10.11.36.2 auth|security:notice login: [ID 99 auth.notice] Login failure on /dev/pts/99 from 10.11.36.2 
+","2020-02-04T19:19:53.000+0000",failure,login,,,,,,19,4,19,february,53,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.2",,,,,,,,"10.11.36.2",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:52 10.11.36.49 auth|security:notice login: [ID 73 auth.notice] Login failure on /dev/pts/73 from 10.11.36.49 
+","2020-02-04T19:19:52.000+0000",failure,login,,,,,,19,4,19,february,52,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.49",,,,,,,,"10.11.36.49",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:49 10.11.36.17 auth|security:notice login: [ID 30 auth.notice] Login failure on /dev/pts/30 from 10.11.36.17 
+","2020-02-04T19:19:49.000+0000",failure,login,,,,,,19,4,19,february,49,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.17",,,,,,,,"10.11.36.17",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:48 10.11.36.12 auth|security:notice login: [ID 104 auth.notice] Login failure on /dev/pts/104 from 10.11.36.12 
+","2020-02-04T19:19:48.000+0000",failure,login,,,,,,19,4,19,february,48,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.12",,,,,,,,"10.11.36.12",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:48 10.11.36.5 auth|security:notice login: [ID 13 auth.notice] Login failure on /dev/pts/13 from 10.11.36.5 
+","2020-02-04T19:19:48.000+0000",failure,login,,,,,,19,4,19,february,48,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.5",,,,,,,,"10.11.36.5",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:44 10.11.36.6 auth|security:notice login: [ID 127 auth.notice] Login failure on /dev/pts/127 from 10.11.36.6 
+","2020-02-04T19:19:44.000+0000",failure,login,,,,,,19,4,19,february,44,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.6",,,,,,,,"10.11.36.6",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:37 10.11.36.31 auth|security:notice login: [ID 141 auth.notice] Login failure on /dev/pts/141 from 10.11.36.31 
+","2020-02-04T19:19:37.000+0000",failure,login,,,,,,19,4,19,february,37,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.31",,,,,,,,"10.11.36.31",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:25 10.11.36.49 auth|security:notice login: [ID 113 auth.notice] Login failure on /dev/pts/113 from 10.11.36.49 
+","2020-02-04T19:19:25.000+0000",failure,login,,,,,,19,4,19,february,25,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.49",,,,,,,,"10.11.36.49",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:24 10.11.36.33 auth|security:notice login: [ID 126 auth.notice] Login failure on /dev/pts/126 from 10.11.36.33 
+","2020-02-04T19:19:24.000+0000",failure,login,,,,,,19,4,19,february,24,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.33",,,,,,,,"10.11.36.33",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:23 10.11.36.19 auth|security:notice login: [ID 35 auth.notice] Login failure on /dev/pts/35 from 10.11.36.19 
+","2020-02-04T19:19:23.000+0000",failure,login,,,,,,19,4,19,february,23,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.19",,,,,,,,"10.11.36.19",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:18 10.11.36.27 auth|security:notice login: [ID 134 auth.notice] Login failure on /dev/pts/134 from 10.11.36.27 
+","2020-02-04T19:19:18.000+0000",failure,login,,,,,,19,4,19,february,18,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.27",,,,,,,,"10.11.36.27",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Feb 04 19:19:14 10.11.36.26 auth|security:notice login: [ID 137 auth.notice] Login failure on /dev/pts/137 from 10.11.36.26 
+","2020-02-04T19:19:14.000+0000",failure,login,,,,,,19,4,19,february,14,tuesday,2020,local,"127.0.0.1",,,,,,,,,false,,,,,,untrust,,false,false,false,,,"err0r login_authentication nix_errors nix_security","127.0.0.1",,main,,,,2,,,,,,,,,,login,,,,"__::_..._|:_:_[__.]____///__..._",,,,,,,"auth.nix","linux_secure","prd-p-7534bdhjhnws",,"10.11.36.26",,,,,,,,"10.11.36.26",false,,,,,,untrust,,false,false,false,,,"authentication
+error
+failure
+os
+unix",failure,,,,,"authentication
+error
+os
+unix",,,,,,,,,,,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
