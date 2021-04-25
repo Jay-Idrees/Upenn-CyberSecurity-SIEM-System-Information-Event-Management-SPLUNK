@@ -219,8 +219,10 @@ Logs vary in format: A few examples:
    - What are the features of this SIEM?
    - What are the primary advantages of this SIEM ?
 
+- Organizations need to **aggregate**, **parse**, **normalize** and **corelate** logs and make sure the basic principals of confidentiality, integrity and availability are well guarded
 
-   # S P L U N K
+   # S P L U N K 
+   [splunkbase.splunk.com](https://splunkbase.splunk.com)
 
 Splunk SIEM product is called  **Splunk Enterprise Security** or Splunk ES. Advanced monitoring solutions provide additional benifits such as machine learning, AI, automation and response
 **Advanced Monitoring Solutions**
@@ -231,6 +233,17 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 - User and entity behavior analytics **(UEBA)** - it is expanded UBA to include servers, routers. Creates baseline behaviour and then detects abnormalities
 
 - Security orchestration, automation and response **(SOAR)** Responds to incidents by creating logs and implementing mitigation strategies
+
+
+
+## Addiing data to splunk
+
+- Splunk architechture : The indexer, Search head
+
+
+
+
+
 
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
 
