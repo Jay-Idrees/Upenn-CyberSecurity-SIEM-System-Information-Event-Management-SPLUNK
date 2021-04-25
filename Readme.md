@@ -176,11 +176,11 @@ Logs vary in format: A few examples:
  
 
 - For the detection of events in web requests its useful to know the response code- typically 200 is what we are looking for as it means success
-Informational responses (100–199)
-Successful responses (200–299)
-Redirects (300–399)
-Client errors (400–499)
-Server errors (500–599)
+- Informational responses (100–199)
+- Successful responses (200–299)
+- Redirects (300–399)
+- Client errors (400–499)
+- Server errors (500–599)
 
 1. Create an alert when: There was suspicious and unsuccessful web activity from Beijing.
     - The protocol is HTTP.
