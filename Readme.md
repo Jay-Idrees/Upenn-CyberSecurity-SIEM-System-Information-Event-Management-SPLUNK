@@ -320,6 +320,7 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="Linux_login.csv" host="Linux_server" sourcetype="csv" name="A user account was locked out"`
 - `source="Linux_login.csv" host="Linux_server" sourcetype="csv" name="A user account was deleted"`
+- Likewise `attack_name="Oracle.9i.TNS.OneByte.DoS` could be another useful piece of information for the query
 
 - You can become even more specific to query for a specific domain or a specific day
 
