@@ -368,6 +368,28 @@ Fields are divided into **default fields** and **interesting fields**.
   - `"Not Brute Force"`: Continues the statement with, If false, name this value `Not Brute Force`.
 
 
+## Designing an Alert with Splunk
+
+Trigger conditions contain the following:
+- **Search/Report results:** Indicate which criteria to check.
+  - For example: 300 logins have been attempted.
+
+- **Time parameters:** Indicate the time period to check.
+  - For example: Within last 24 hours.
+
+- **Schedule:** Determines the frequency by which these criteria are checked. 
+  - For example: Every day at 12 p.m.
+
+When the condition is met, a **trigger action** is executed to alert the Splunk user.
+  - For example: Send an email to soc_manager@acme.com.
+
+
+
+
+
+
+
+
 
 
 
