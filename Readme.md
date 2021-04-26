@@ -367,6 +367,10 @@ Fields are divided into **default fields** and **interesting fields**.
 
   - `"Not Brute Force"`: Continues the statement with, If false, name this value `Not Brute Force`.
 
+**Creating Automatied Reports**
+
+
+
 
 ## Designing an Alert with Splunk
 
