@@ -255,6 +255,19 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 
 - It is almost always time based and can be analyzed as relative (you specify time/date range), real-time (as its happening and updated momenterily) or all time (everythin that is available)
 
+- Splunk has its own programming language - called SPL (Splunk Processing Language)
+
+- **Key-Value Pairs**
+- Key variable name and value is the actual value stored in the varibale e-g user=josh where user is the key and josh is the value
+
+
+
+
+
+
+
+
+
 
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
 
