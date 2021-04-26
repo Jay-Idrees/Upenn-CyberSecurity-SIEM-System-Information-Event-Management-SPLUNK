@@ -339,13 +339,23 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 ## The Next Level of Search Queries in Splunk
- - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert
+ - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert and creating new variables
 
 
 
 
 
+- `source="statsreport.csv"  | eval BruteForce = if('EventCode'="4740","Potential Brute Force", "Not Brute Force")`
 
+  - `source="statsreport.csv"`: Searches through all the results from the `statsreport.csv` file.
+
+  - `eval BruteForce`: Creates a new field called `BruteForce`.
+
+  - `if('EventCode'="4740",`: States the expression, If the event code field has a value of 4740.
+
+  - `"Potential Brute Force",`: Continues the statement with, If true, name this value `Potential Brute Force`. This is the value to display if the expression for the event is true.
+
+  - `"Not Brute Force"`: Continues the statement with, If false, name this value `Not Brute Force`.
 
 
 
