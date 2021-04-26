@@ -370,7 +370,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 ## Designing an Alert with Splunk
 
-Trigger conditions contain the following:
+- Goal is to avoid `false positive`, `false negative` and `alert fatigue`
+
 - **Search/Report results:** Indicate which criteria to check.
   - For example: 300 logins have been attempted.
 
@@ -380,10 +381,10 @@ Trigger conditions contain the following:
 - **Schedule:** Determines the frequency by which these criteria are checked. 
   - For example: Every day at 12 p.m.
 
-When the condition is met, a **trigger action** is executed to alert the Splunk user.
+- **trigger action** when a condition is met and alert the Splunk user.
   - For example: Send an email to soc_manager@acme.com.
 
-
+- Determining the **Baseline** and setting up the **Threshold**
 
 
 
