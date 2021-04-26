@@ -312,7 +312,8 @@ For example, `user=*beth*` would return:
 
 - `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" | sort src_ip | head 20 ` Here the tables have turned. Now all the ips are sorted first and then only the top 10 are displayed after the sorting is complete
 
-
+**Relatively complex query**
+-   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
 
 
 
