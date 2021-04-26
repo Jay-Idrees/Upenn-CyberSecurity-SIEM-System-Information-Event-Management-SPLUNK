@@ -337,7 +337,8 @@ Fields are divided into **default fields** and **interesting fields**.
 -   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
 
 
-
+## The Next Level of Search Queries in Splunk
+ - Using `stat`, `eval`, Determining a baseline, Desigining an alert
 
 
 
