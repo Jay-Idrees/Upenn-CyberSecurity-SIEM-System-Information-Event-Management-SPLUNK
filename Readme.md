@@ -295,6 +295,12 @@ To the default above, you can then add more queries. As you will be able to see 
 
 - source="Linux_login.csv" host="Linux_Server_" sourcetype="csv" `src_ip="10.11.36.17"`
 
+- Likewise it will also be useful to look at deletd user or locked out user accounts
+
+`source="Linux_login.csv" host="Linux_server" sourcetype="csv" name="A user account was locked out"`
+`source="Linux_login.csv" host="Linux_server" sourcetype="csv" name="A user account was deleted"`
+
+- You can become even more specific to query for a specific domain or a specific day
 
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
 
