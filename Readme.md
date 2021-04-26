@@ -258,9 +258,9 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 - Splunk has its own programming language - called SPL (Splunk Processing Language)
 
 - **Key-Value Pairs**
-- Key variable name and value is the actual value stored in the varibale e-g user=josh where user is the key and josh is the value
+- Key variable name and value is the actual value stored in the varibale e-g `user=josh` where user is the key and josh is the value
 
-
+- if the search value has a space, comma, or pipe, it needs double quotes around the value `user="Jay Idrees"`
 
 
 
