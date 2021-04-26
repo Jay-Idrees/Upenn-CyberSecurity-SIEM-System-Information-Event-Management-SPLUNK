@@ -339,7 +339,7 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 ## The Next Level of Search Queries in Splunk
- - Using `stat`, `eval`, Determining a baseline, Desigining an alert
+ - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert
 
 
 
