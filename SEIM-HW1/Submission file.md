@@ -81,6 +81,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 > Answer: The speed was back to the usual of >100 mb/s by 23:30 - 2/23/2020, which translates to approximately 9 hours
 
 Submit a screen shot of your report and the answer to the questions above.
+> the screen shots are in the folder SEIM-HW1
  
 ### Step 2: Are We Vulnerable? 
 
@@ -102,6 +103,7 @@ Submit a screen shot of your report and the answer to the questions above.
 - `source="nessus_logs.csv" host="Nessus_Logs" sourcetype="csv" dest_ip="10.11.36.23" | stats count(eval(severity="critical")) AS "Critical Database Server Vulnerabilities"`
 
 > It appears that there are 49 critical database server vulnerabilities
+> See the screen shots in the folder
 
 
       
@@ -128,9 +130,13 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
 
+> Answer: The baseline failed logins is around 1-3, based on that I will set the threshold to 5
+
+`source="Administrator_logs.csv" host="Administrator_Logs" sourcetype="csv" name="An account failed to log on" | stats count by Logon_ID | sort -count | table Logon_ID count`
+
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
 
-Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
+> See the screen shots in the folder
  
  
 ### Your Submission
