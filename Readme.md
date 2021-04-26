@@ -284,6 +284,8 @@ For example, `user=*beth*` would return:
 
 - Once you upload a file and then run the search- specify the host name. The following fields will be automatically populated
 
+> **Default when you load the file**
+
 `source="Linux_login.csv" host="Linux_server" sourcetype="csv"`
 
 To the default above, you can then add more queries. As you will be able to see to the left of the view there is a column that lists all the variables. For example if I want to look at what variable stores information about the IP address. In this file that variable is "src_ip". So If I want to search for a specific ip I can add:
