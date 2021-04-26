@@ -274,7 +274,9 @@ For example, user=*beth* would return:
 - bethanny
 - elizabeth
 
-> Using **AND**, **OR**, **NOT**
+> Using **AND**, **OR**, **NOT**, If you do not specify then AND is automatically asumed
+
+- `user=jonathan activity=login` is equivalent to `user=jonathan AND activity=login`
 
 
 
