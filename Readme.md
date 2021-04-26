@@ -286,7 +286,9 @@ For example, `user=*beth*` would return:
 
 `source="Linux_login.csv" host="Linux_server" sourcetype="csv"`
 
+To the default above, you can then add more queries. As you will be able to see to the left of the view there is a column that lists all the variables. For example if I want to look at what variable stores information about the IP address. In this file that variable is "src_ip". So If I want to search for a specific ip I can add:
 
+- source="Linux_login.csv" host="Linux_Server_" sourcetype="csv" `src_ip="10.11.36.17"`
 
 
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
