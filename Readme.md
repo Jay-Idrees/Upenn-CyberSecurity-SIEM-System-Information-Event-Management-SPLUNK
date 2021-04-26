@@ -263,13 +263,13 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 - if the search value has a space, comma, or pipe, it needs double quotes around the value `user="Jay Idrees"`
 - Wild cards: 
 
-For example, user=mary* would return:
+For example, `user=mary*` would return:
 - mary ann
 - mary beth
 - mary belle
 - Wildcards can also be used to find a value surrounded by any character.
 
-For example, user=*beth* would return:
+For example, `user=*beth*` would return:
 - mary beth
 - bethanny
 - elizabeth
