@@ -337,6 +337,8 @@ Fields are divided into **default fields** and **interesting fields**.
 **Relatively complex query**
 -   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
 
+- `source="server_speedtest.csv" host="upload_download_speed" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' | sort _time | table _time IP_ADDRESS UPLOAD_MEGABITS DOWNLOAD_MEGABITS ratio`
+
 
 ## The Next Level of Search Queries in Splunk
  - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert and creating new variables
