@@ -236,7 +236,7 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 
 
 
-## Addiing data to splunk
+## Adding data to splunk
 
 - Splunk architechture : The indexer, Search head
 - When data is added to Splunk, it transforms the individual events to individual repositories called indexes
@@ -249,7 +249,7 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 
 
 
-**Searching Queries in Splunk**
+## Search Queries in Splunk
 
 - One of the goals of the examinig the logs is to identif attacks and more specifically the user id and and the ip address of the attacker
 
@@ -274,7 +274,7 @@ For example, `user=*beth*` would return:
 - bethanny
 - elizabeth
 
-> Using **AND**, **OR**, **NOT**, If you do not specify then AND is automatically asumed
+- Using **AND**, **OR**, **NOT**, If you do not specify then AND is automatically asumed
 
 - `user=jonathan activity=login` is equivalent to `user=jonathan AND activity=login`
 
@@ -284,14 +284,14 @@ For example, `user=*beth*` would return:
 
 - Once you upload a file and then run the search- specify the host name. The following fields will be automatically populated
 
-> **Default when you load the file**
+**Default when you load the file**
 
 `source="Linux_login.csv" host="Linux_server" sourcetype="csv"`
 
-To the default above, you can then add more queries. As you will be able to see to the left of the view there is a column that lists all the variables. For example if I want to look at what variable stores information about the IP address. In this file that variable is "src_ip". So If I want to search for a specific ip I can add:
+- To the default above, you can then add more queries. As you will be able to see to the left of the view there is a column that lists all the variables. For example if I want to look at what variable stores information about the IP address. In this file that variable is "src_ip". So If I want to search for a specific ip I can add:
 
 
-> **Adding additional commands to the queries**
+**Adding additional commands to the queries**
 
 - source="Linux_login.csv" host="Linux_Server_" sourcetype="csv" `src_ip="10.11.36.17"`
 
@@ -304,7 +304,7 @@ To the default above, you can then add more queries. As you will be able to see 
 
 - `source="Linux_login.csv" host="Linux_server" sourcetype="csv" dest_nt_domain=Domain_B date_wday=tuesday`
 
-> **Piping the search queries**
+**Piping the search queries**
 
 - We can use piping with `head`, `tail` and `sort`
 
