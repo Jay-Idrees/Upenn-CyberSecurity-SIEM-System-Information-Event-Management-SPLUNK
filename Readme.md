@@ -339,6 +339,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="server_speedtest.csv" host="upload_download_speed" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' | sort _time | table _time IP_ADDRESS UPLOAD_MEGABITS DOWNLOAD_MEGABITS ratio`
 
+- `source="nessus_logs.csv" host="Nessus_Logs" sourcetype="csv" dest_ip="10.11.36.23" | stats count(eval(severity="critical")) AS "Critical Database Server Vulnerabilities"`
+
 
 ## The Next Level of Search Queries in Splunk
  - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert and creating new variables

@@ -68,11 +68,17 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 > Splunk command:
 
-`source="server_speedtest.csv" host="upload_download_speed" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' | table _time IP_ADDRESS UPLOAD_MEGABITS DOWNLOAD_MEGABITS ratio`
+`source="server_speedtest.csv" host="upload_download_speed" sourcetype="csv" | eval ratio='UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS' | sort _time | table _time IP_ADDRESS UPLOAD_MEGABITS DOWNLOAD_MEGABITS ratio`
 
 
     - Based on the report created, what is the approximate date and time of the attack?
+
+> Answer: Based on the report, on 2/23/2020 at 14:30 is when the attack likely occurred as thats when a dramatic drop in download speed is noted from 109.16 mb/s to 7.87 mb/s
+
+
     - How long did it take your systems to recover?
+
+> Answer: The speed was back to the usual of >100 mb/s by 23:30 - 2/23/2020, which translates to approximately 9 hours
 
 Submit a screen shot of your report and the answer to the questions above.
  
@@ -90,6 +96,12 @@ Submit a screen shot of your report and the answer to the questions above.
 2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
    - The database server IP is `10.11.36.23`.
    - The field that identifies the level of vulnerabilities is `severity`.
+
+> Answer: The Splunk query is below
+
+- `source="nessus_logs.csv" host="Nessus_Logs" sourcetype="csv" dest_ip="10.11.36.23" | stats count(eval(severity="critical")) AS "Critical Database Server Vulnerabilities"`
+
+
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
