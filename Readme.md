@@ -344,7 +344,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 
-- Here I am creating a new variable named BruteForce and assigining two values 'Potential Brute Force' or 'Not brute Force'
+- Here I am creating a new variable named BruteForce and assigining two values 'Potential Brute Force' or 'Not brute Force'. Note that many type of events have code, for example here the event code 4740 represents a brute force attack
+
 - `source="statsreport.csv"  | eval BruteForce = if('EventCode'="4740","Potential Brute Force", "Not Brute Force")`
 
   - `source="statsreport.csv"`: Searches through all the results from the `statsreport.csv` file.
