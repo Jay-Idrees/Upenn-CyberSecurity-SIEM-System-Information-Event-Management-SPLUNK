@@ -341,7 +341,7 @@ Fields are divided into **default fields** and **interesting fields**.
 ## The Next Level of Search Queries in Splunk
  - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert and creating new variables
 
-**Counting wit Stat**
+**Counting with Stat**
 
 - I can use the basic stat command to obtain simple count of an event or as in this case simply counting the number of events by count
  - `source="statsreport.csv" | stats count by Account_Name`
