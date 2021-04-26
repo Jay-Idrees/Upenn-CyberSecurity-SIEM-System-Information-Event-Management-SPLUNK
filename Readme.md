@@ -257,7 +257,7 @@ If a user usually only logs onto a server between 9 a.m. and 5 p.m., Monday thro
 
 - Splunk has its own programming language - called SPL (Splunk Processing Language)
 
-> **Key-Value Pairs**
+ **Key-Value Pairs**
 - Key variable name and value is the actual value stored in the varibale e-g `user=josh` where user is the key and josh is the value
 
 - if the search value has a space, comma, or pipe, it needs double quotes around the value `user="Jay Idrees"`
@@ -276,7 +276,7 @@ For example, `user=*beth*` would return:
 
 - Using **AND**, **OR**, **NOT**, If you do not specify then AND is automatically asumed
 
-- `user=jonathan activity=login` is equivalent to `user=jonathan AND activity=login`
+- `user=jonathan activity=login` is equivalent to `user="Jay Idrees" AND activity=login`
 
 - `user=jonathan OR user=beth`
 
@@ -289,6 +289,14 @@ For example, `user=*beth*` would return:
 `source="Linux_login.csv" host="Linux_server" sourcetype="csv"`
 
 - To the default above, you can then add more queries. As you will be able to see to the left of the view there is a column that lists all the variables. For example if I want to look at what variable stores information about the IP address. In this file that variable is "src_ip". So If I want to search for a specific ip I can add:
+
+- `source="Linux_login.csv" host="Linux_server" sourcetype="csv" src_ip="10.11.36.17"`
+
+Fields are divided into **default fields** and **interesting fields**.
+
+- Default fields are the fields that appear in every log event.
+
+- Interesting fields are fields that appear in at least 20% of the log events.
 
 
 **Adding additional commands to the queries**
