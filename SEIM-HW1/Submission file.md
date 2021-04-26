@@ -101,6 +101,8 @@ Submit a screen shot of your report and the answer to the questions above.
 
 - `source="nessus_logs.csv" host="Nessus_Logs" sourcetype="csv" dest_ip="10.11.36.23" | stats count(eval(severity="critical")) AS "Critical Database Server Vulnerabilities"`
 
+> It appears that there are 49 critical database server vulnerabilities
+
 
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
