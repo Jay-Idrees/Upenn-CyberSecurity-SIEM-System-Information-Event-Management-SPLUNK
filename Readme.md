@@ -304,6 +304,27 @@ To the default above, you can then add more queries. As you will be able to see 
 
 - `source="Linux_login.csv" host="Linux_server" sourcetype="csv" dest_nt_domain=Domain_B date_wday=tuesday`
 
+> **Piping the search queries**
+
+- We can use piping with `head`, `tail` and `sort`
+
+-  `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" | head 20 | sort src_ip` Note the placement of sort after head. This command will first shortlist the top 20 data points, and when that is done, then it will sort or re-arrange those 20 based on the ip address
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
 
    > Splunk commands and queries
