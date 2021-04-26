@@ -292,6 +292,19 @@ For example, `user=*beth*` would return:
 
 - `source="Linux_login.csv" host="Linux_server" sourcetype="csv" src_ip="10.11.36.17"`
 
+Each server and application creates their own key and value names.
+
+  - For example, if we need to find users that logged into a machine, the key can vary depending on the server or application. It might be any of the following:
+      - `Activity`
+      - `Event_type`
+      - `User_activity`
+
+  - The value can also vary:
+      - `Login`
+      - `Logon`
+      - `Logged In`
+
+
 Fields are divided into **default fields** and **interesting fields**.
 
 - Default fields are the fields that appear in every log event.
