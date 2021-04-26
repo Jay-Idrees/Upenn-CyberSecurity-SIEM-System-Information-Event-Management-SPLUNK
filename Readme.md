@@ -278,6 +278,10 @@ For example, user=*beth* would return:
 
 - `user=jonathan activity=login` is equivalent to `user=jonathan AND activity=login`
 
+- `user=jonathan OR user=beth`
+
+- `user=jonathan NOT activity=logout` , NOT is used to exclude
+
 
 
 
