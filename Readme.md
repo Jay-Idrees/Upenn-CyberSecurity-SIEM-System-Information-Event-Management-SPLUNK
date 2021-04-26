@@ -341,7 +341,12 @@ Fields are divided into **default fields** and **interesting fields**.
 ## The Next Level of Search Queries in Splunk
  - Using `stat` - Creates basic statistical report, `eval`, Determining a baseline, Desigining an alert and creating new variables
 
+- I can use the basic stat command to obtain simple count of an event or as in this case simply counting the number of events by count
+ - `source="statsreport.csv" | stats count by Account_Name`
 
+      - `source="statsreport.csv`: The search being conducted, pulling the source of Windows event security logs.
+
+      - `| stats count by Account_Name`: Pipes the search results, creates a statistical report of the `Account_Name` field and shows the number of events that each `Account_Name` appears in.
 
 
 - Here I am creating a new variable named BruteForce and assigining two values 'Potential Brute Force' or 'Not brute Force'. Note that many type of events have code, for example here the event code 4740 represents a brute force attack
