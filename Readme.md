@@ -310,6 +310,8 @@ To the default above, you can then add more queries. As you will be able to see 
 
 -  `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" | head 20 | sort src_ip` Note the placement of sort after head. This command will first shortlist the top 20 data points, and when that is done, then it will sort or re-arrange those 20 based on the ip address
 
+- `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" | sort src_ip | head 20 ` Here the tables have turned. Now all the ips are sorted first and then only the top 10 are displayed after the sorting is complete
+
 
 
 
