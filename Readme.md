@@ -280,7 +280,7 @@ For example, user=*beth* would return:
 
 - `user=jonathan OR user=beth`
 
-- `user=jonathan NOT activity=logout` , NOT is used to exclude
+- `user=jonathan NOT activity=logout` , NOT is used to exclude certain criteria
 
 
 
