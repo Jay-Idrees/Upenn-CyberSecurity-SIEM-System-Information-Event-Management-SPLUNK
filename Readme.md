@@ -282,7 +282,9 @@ For example, `user=*beth*` would return:
 
 - `user=jonathan NOT activity=logout` , NOT is used to exclude certain criteria
 
+- Once you upload a file and then run the search- specify the host name. The following fields will be automatically populated
 
+`source="Linux_login.csv" host="Linux_server" sourcetype="csv"`
 
 
 
