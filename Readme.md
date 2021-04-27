@@ -402,7 +402,12 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 
+## Things to monitor visually
 
+- The volume of successful logins on the website.
+- The volume of unsuccessful logins on the website.
+- A geographic map illustrating where the activity is coming from.
+- A pie chart displaying the specific pages of the website that are being accessed.
 
 
 
