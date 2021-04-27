@@ -224,7 +224,7 @@ Logs vary in format: A few examples:
    # S P L U N K 
    [splunkbase.splunk.com](https://splunkbase.splunk.com)
 
-Splunk SIEM product is called  **Splunk Enterprise Security** or Splunk ES. Advanced monitoring solutions provide additional benifits such as machine learning, AI, automation and response
+Splunk SIEM product is called  **Splunk Enterprise Security** or **Splunk ES**. Advanced monitoring solutions provide additional benifits such as machine learning, AI, automation and response
 **Advanced Monitoring Solutions**
 - User behavior analytics **(UBA)** - Detects abnormalities in user activity- trigers alert when a user deviates from typical behaviour
 
@@ -337,6 +337,7 @@ Fields are divided into **default fields** and **interesting fields**.
 **Using Top and limit**
 
 `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" subject="An account was successfully logged in | top limit=10 user`
+- The top command is valuable because it gives a simple count and percentage, the limit set how many different users are showed in the report
 
 **Relatively complex query**
 -   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
@@ -411,7 +412,7 @@ Fields are divided into **default fields** and **interesting fields**.
 - A geographic map illustrating where the activity is coming from.
 - A pie chart displaying the specific pages of the website that are being accessed.
 
-- Successful logins: `source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total` Once you get this send it to the dashboard pannel. For the first time you will have to select the 'new' option
+- Successful logins: `source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total` Once you get this send it to the dashboard pannel. For the first time you will have to select the 'new' option. For the subsequent times choose 'existing'. You can also use edit to rearrange
 
 
 
