@@ -337,7 +337,7 @@ Fields are divided into **default fields** and **interesting fields**.
 **Using Top and limit**
 
 `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" subject="An account was successfully logged in | top limit=10 user`
-- The top command is valuable because it gives a simple count and percentage, the limit set how many different users are showed in the report
+- The top command is valuable because it gives a simple count and percentage, the limit set how many different users are showed in the report - Like it will show the 
 
 **Relatively complex query**
 -   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
@@ -419,42 +419,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 
-- SOAR uses playbooks that dictate respose for typical threats- These can decrease incidence reponse time
+# Analyzing Example Logs and Creating Reports Exercise
 
-   > Splunk commands and queries
+- Here I am using the windows server logs file, analyzing the `signature` variable which documents activity with a particular user account such as lock out or delition, along with a `signature_id` that contains specific codes assigned to such events
 
-  ` source="fortinet_IPS_logs.csv" attack_name="Oracle.9i.TNS.OneByte.DoS"`
-
-`source="fortinet+IPS_log.csv" host="cae59c510a8" sourcetype="csv"
-
-  Add `| stats count as total` to the end of the search and run the search again.
-
-Splunk can create location-specific reports with the `iplocation` and `geostats` commands. 
-
-`sourcetype="stream:http" | iplocation src_ip`
-
-`source="demo_httplogs.csv" | iplocation src_ip | geostats count`
-
-Looking at every thing together
-
-- The volume of successful logins on the website
-- The volume of unsuccessful logins on the website
-- A geographic map illustrating where the activity is coming from
-- A pie chart displaying the specific pages of the website that are being accessed
-
-
-- A radial gauge of successful logins.
-- A pie chart of users logging in.
-- A statistical chart of the data in the pie chart.
-
-Splunk tool dashboard displays all the infomation together
-
-`source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total`
-
-select save as dashboard pannel
-
-`source="demo_winlogs.csv"| top limit=10 user`
-
-- Then you can keep adding various components to the dashboard by selecting the "existing" dashboard. Note that the dashboards can also be edited
-
-- For each of the pannels you can select the 
+- source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature
