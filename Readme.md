@@ -411,7 +411,9 @@ Fields are divided into **default fields** and **interesting fields**.
 - A geographic map illustrating where the activity is coming from.
 - A pie chart displaying the specific pages of the website that are being accessed.
 
-- `source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total` Once you get this send it to the dashboard pannel. For the first time you will have to select the 'new' option
+- Successful logins: `source="demo_winlogs.csv" signature="An account was successfully logged on" | stats count as total` Once you get this send it to the dashboard pannel. For the first time you will have to select the 'new' option
+
+
 
 
 
