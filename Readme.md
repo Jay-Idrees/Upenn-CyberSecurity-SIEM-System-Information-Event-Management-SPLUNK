@@ -334,6 +334,10 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="Linux_login.csv" host="Linux_Server" sourcetype="csv" | sort src_ip | head 20 ` Here the tables have turned. Now all the ips are sorted first and then only the top 10 are displayed after the sorting is complete
 
+**Using Top and limit**
+
+`source="Linux_login.csv" host="Linux_Server" sourcetype="csv" subject="An account was successfully logged in | top limit=10 user`
+
 **Relatively complex query**
 -   `source="winevent_logs_2.csv" name="A user account was locked out" Account_Name="user_d" | head 50 | sort ComputerName` 
 
@@ -371,7 +375,9 @@ Fields are divided into **default fields** and **interesting fields**.
 
   - `"Not Brute Force"`: Continues the statement with, If false, name this value `Not Brute Force`.
 
-**Creating Automatied Reports**
+**Using `iplocation` and `geolocation`**
+
+- `source="demo_httplogs.csv" | iplocation src_ip | geostats count` This is a very useful query. The iplocation command will grab individual ip addresses and determine which part of the world are they from. The geostats command then maps it on the world map
 
 
 
