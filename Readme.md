@@ -437,4 +437,6 @@ Fields are divided into **default fields** and **interesting fields**.
 
 4. Designing **alert** whenever a `status` is reported as `failure`
 
-- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" status=failure` This will genetate the count and then you can save it as a report
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" status=failure` This will genetate the count and then you can create an alert. In this case the average/hr from graphs appear to be around 6/hr so I can set the threshold to 15
+
+5. 
