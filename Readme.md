@@ -427,7 +427,10 @@ Fields are divided into **default fields** and **interesting fields**.
 
 2. Obtaining count and percent of the variable `severity` which reports the vulnerabilities
 
-- `source="windows_server_logs.csv" |  top severity` This command will detail the count + % for each of the categories within the variable severity. Typical options are: Critical, high, medium, low, informational
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top severity` This command will detail the count + % for each of the categories within the variable severity. Typical options are: Critical, high, medium, low, informational
 
 3. Obtaining count and percent of the variable `status` which reports whether a login was successful or not
 
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top status`
+
+- Note that for the above two command if I type `top status severity` together then it will be as if I typed  `top status AND severity` then it will generate data based on  combinations of the individual categories within each of the individual variables
