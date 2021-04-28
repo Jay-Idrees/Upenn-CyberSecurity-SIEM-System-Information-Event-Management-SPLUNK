@@ -448,8 +448,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature_id="4726"`
 
-**7.** Creating a **`Timechart`** (very useful command) for the various types of activities captured in `signature`
-
 <div class=text-blue mb-2>
-- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv"  | timechart span=1h count by signature` Here the command `timechart` will break the data (`signature` variable in this case) into segments
+**7.** Creating a **`Timechart`** (very useful command) for the various types of activities captured in `signature`
 <div/>
+
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv"  | timechart span=1h count by signature` Here the command `timechart` will break the data (`signature` variable in this case) into segments
