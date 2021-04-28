@@ -448,7 +448,7 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature_id="4726"`
 
-<div class=text-blue mb-2>
+<div class="text-blue" mb-2>
 Hello
 <div/>
 **7.** Creating a **`Timechart`** (very useful command) for the various types of activities captured in `signature`
