@@ -439,6 +439,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" status=failure` This will genetate the count and then you can create an alert. In this case the average/hr from graphs appear to be around 6/hr so I can set the threshold to 15
 
-5. Determining how often an account was successfully logged on
+5. Determining how often an account was successfully logged on using the `signature` variable. Then an alert can be configured based on average per hr and then a threshold is decide. In this case the avegrage appears to be 12 events and then the threshold can be 30
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature="An account was successfully logged on"`
+
+
