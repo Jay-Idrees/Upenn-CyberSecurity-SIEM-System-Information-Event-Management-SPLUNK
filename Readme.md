@@ -506,3 +506,8 @@ It appears that the average acrivity is about 80/hr and the threshold can be set
 - The average activity appears to be 2-3/hr so the threshold maybe set at 12-20
 
 
+6. Determining the country location of visitors based on the IP address
+
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip |geostats count` Under visualizations you can then use cluster map to construct the visual
+
+**Save As** > **Dashboard Panel** > **Existing** > **Apache WebServer Monitoring** > **Create Title for Panel** > **Save as Cluster Map**
