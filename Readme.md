@@ -491,3 +491,9 @@ On your dashboard, add the ability to change the time range for all your visuali
 3. Reviewing the `status` variable - here its different in the Apache file as it refers to whether the web queries were successful (code 200), Eroneous(400) or informational etc
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top status`
+
+4. Determining the baseline activity/hr from country outside of US by analyzing the `clientip` variable and the `country` variable
+
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | where Country !="United States"`
+
+It appears that the average acrivity is about 80/hr and the threshold can be set to 170-250
