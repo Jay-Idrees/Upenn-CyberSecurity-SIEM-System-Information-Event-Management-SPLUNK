@@ -444,3 +444,5 @@ Fields are divided into **default fields** and **interesting fields**.
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature="An account was successfully logged on"`
 
 
+6. Quering how often an account is deleted using the `signature` variable
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature_id="4726"`
