@@ -482,6 +482,7 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 1. Looking at the `method` variable to determine how many requests were `GET/POST` etc
 
-`source="apache_logs.txt" host="65e7ba75f7d1" sourcetype="access_combined" | top method` and then save report
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | top method` and then save report. Notice that if I do not use limit, it will display all the options
 
-2. 
+2. Reviewing the `referer_domain` variable 
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top limit=10 referer_domain`
