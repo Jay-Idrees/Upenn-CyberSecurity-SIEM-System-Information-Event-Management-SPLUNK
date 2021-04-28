@@ -479,3 +479,9 @@ On your dashboard, add the ability to change the time range for all your visuali
 - Save the changes.
 
 ## Splunk Analysis of Apache Web Server Logs
+
+1. Looking at the `method` variable to determine how many requests were `GET/POST` etc
+
+`source="apache_logs.txt" host="65e7ba75f7d1" sourcetype="access_combined" | top method` and then save report
+
+2. 
