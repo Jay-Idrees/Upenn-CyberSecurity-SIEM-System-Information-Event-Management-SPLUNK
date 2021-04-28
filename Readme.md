@@ -492,7 +492,7 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top status`
 
-4. Querying `useragent` very imp, gives insight into the user's device/mac-windows, browser etc
+4. Querying `useragent` very imp, gives insight into the user's device/mac-windows, browser, iphone etc
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | top limit=10 useragent`
 
