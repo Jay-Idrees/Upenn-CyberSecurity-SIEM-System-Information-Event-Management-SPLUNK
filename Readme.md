@@ -445,4 +445,9 @@ Fields are divided into **default fields** and **interesting fields**.
 
 
 6. Quering how often an account is deleted using the `signature` variable
+
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" signature_id="4726"`
+
+**7.** Creating a **`Timechart`** (very useful command) for the various types of activities captured in `signature`
+
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | timechart span=1h count by signature` Here the command `timechart` will break the data (`signature` variable in this case) into segments
