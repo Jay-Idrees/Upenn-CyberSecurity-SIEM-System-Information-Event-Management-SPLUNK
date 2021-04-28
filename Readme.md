@@ -484,5 +484,10 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | top method` and then save report. Notice that if I do not use limit, it will display all the options
 
-2. Reviewing the `referer_domain` variable 
+2. Reviewing the `referer_domain` variable which shows the websites visited
+
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top limit=10 referer_domain`
+
+3. Reviewing the `status` variable - here its different in the Apache file as it refers to whether the web queries were successful (code 200), Eroneous(400) or informational etc
+
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top status`
