@@ -453,4 +453,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv"  | timechart span=1h count by signature` Here the command `timechart` will break the data (`signature` variable in this case) into segments by timeframe specified by `span`
 
-8. 
+- Select the following: **Save As** > **Dashboard Panel** > **New** > **Create Title for Dashboard and Panel** > **Save as Line Chart**
+
+8.  Creating a timechart to display activity by a specific `user`
+
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | timechart span=1h count by user`
