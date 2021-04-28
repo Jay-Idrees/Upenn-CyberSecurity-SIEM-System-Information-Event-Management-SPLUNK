@@ -458,3 +458,7 @@ Fields are divided into **default fields** and **interesting fields**.
 8.  Creating a timechart to display activity by a specific `user`
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | timechart span=1h count by user`
+
+9. Creating a pie chart to visualize the user activity of top 10 users
+
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top limit=10 signature`
