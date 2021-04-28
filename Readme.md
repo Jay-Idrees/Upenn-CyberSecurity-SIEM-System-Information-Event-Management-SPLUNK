@@ -459,6 +459,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | timechart span=1h count by user`
 
-9. Creating a pie chart to visualize the user activity of top 10 users
+9. Creating a pie chart to visualize the user activity of top 10 most common different 'signatures' or type of usr activity
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top limit=10 signature`
+
+10. 
