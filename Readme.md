@@ -421,6 +421,11 @@ Fields are divided into **default fields** and **interesting fields**.
 
 # Analyzing Example Logs and Creating Reports Exercise
 
-- Here I am using the windows server logs file, analyzing the `signature` variable which documents activity with a particular user account such as lock out or delition, along with a `signature_id` that contains specific codes assigned to such events
+1. Here I am using the windows server logs file, analyzing the `signature` variable which documents activity with a particular user account such as lock out or delition, along with a `signature_id` that contains specific codes assigned to such events
 
-- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature` The dedup command here removes the duplicates
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature` The `dedup` command here removes the duplicates
+
+2. Obtaining count and percent of the variable `severity`
+
+- `source="windows_server_logs.csv" |  top severity` This command will detail the count + % for each of the categories within the variable severity. Typical options are: Critical, high, medium, low, informational
+
