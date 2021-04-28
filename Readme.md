@@ -501,7 +501,7 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | where Country !="United States"`
 
-It appears that the average acrivity is about 80/hr and the threshold can be set to 170-250 for an alert
+It appears that the average activity is about 80/hr and the threshold can be set to 170-250 for an alert
 
 
 6. Determining the baseline activity for POST requests in the `method` variable for **alert**
