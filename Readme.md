@@ -492,26 +492,31 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" |top status`
 
-4. Determining the baseline activity/hr from country outside of US by analyzing the `clientip` variable and the `country` variable for **alert**
+4. Querying `useragent` very imp, gives insight into the user's device/mac-windows, browser etc
+
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | top limit=10 useragent`
+
+
+5. Determining the baseline activity/hr from country outside of US by analyzing the `clientip` variable and the `country` variable for **alert**
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | where Country !="United States"`
 
 It appears that the average acrivity is about 80/hr and the threshold can be set to 170-250 for an alert
 
 
-5. Determining the baseline activity for POST requests in the `method` variable for **alert**
+6. Determining the baseline activity for POST requests in the `method` variable for **alert**
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" method="POST"`
 
 - The average activity appears to be 2-3/hr so the threshold maybe set at 12-20
 
 
-6. Determining the country location of visitors based on the IP address
+7. Determining the country location of visitors based on the IP address
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip |geostats count` Under visualizations you can then use cluster map to construct the visual
 
 **Save As** > **Dashboard Panel** > **Existing** > **Apache WebServer Monitoring** > **Create Title for Panel** > **Save as Cluster Map**
 
-7. Listing the top countries that visitied
+8. Listing the top countries that visitied
 
-- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | top limit=10 Country`
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | top limit=10 Country` you can save this as a statistics table
