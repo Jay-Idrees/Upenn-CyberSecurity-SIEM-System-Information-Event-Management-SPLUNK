@@ -434,3 +434,5 @@ Fields are divided into **default fields** and **interesting fields**.
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top status`
 
 - Note that for the above two command if I type `top status severity` together then it will be as if I typed  `top status AND severity` then it will generate data based on  combinations of the individual categories within each of the individual variables
+
+4. Designing **alert** whenever a `status` is reported as `failure`
