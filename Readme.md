@@ -423,4 +423,4 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - Here I am using the windows server logs file, analyzing the `signature` variable which documents activity with a particular user account such as lock out or delition, along with a `signature_id` that contains specific codes assigned to such events
 
-- source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature` The dedup command here removes the duplicates
