@@ -425,7 +425,9 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature` The `dedup` command here removes the duplicates
 
-2. Obtaining count and percent of the variable `severity`
+2. Obtaining count and percent of the variable `severity` which reports the vulnerabilities
 
 - `source="windows_server_logs.csv" |  top severity` This command will detail the count + % for each of the categories within the variable severity. Typical options are: Critical, high, medium, low, informational
+
+3. Obtaining count and percent of the variable `status` which reports whether a login was successful or not
 
