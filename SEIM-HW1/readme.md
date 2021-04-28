@@ -130,7 +130,7 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
 
-> Answer: The baseline failed logins is around 1-3, based on that I will set the threshold to 5
+> Answer: The baseline failed logins is around 1-3, based on that I will set the threshold to 10
 
 `source="Administrator_logs.csv" host="Administrator_Logs" sourcetype="csv" name="An account failed to log on" | stats count by Logon_ID | sort -count | table Logon_ID count`
 
