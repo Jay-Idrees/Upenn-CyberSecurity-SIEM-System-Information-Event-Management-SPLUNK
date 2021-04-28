@@ -452,6 +452,10 @@ Fields are divided into **default fields** and **interesting fields**.
 Hello
 </div>
 
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>
+
 **7.** Creating a **`Timechart`** (very useful command) for the various types of activities captured in `signature`
 
 
