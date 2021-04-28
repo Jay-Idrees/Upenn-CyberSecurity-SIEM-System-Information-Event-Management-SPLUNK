@@ -511,3 +511,7 @@ It appears that the average acrivity is about 80/hr and the threshold can be set
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip |geostats count` Under visualizations you can then use cluster map to construct the visual
 
 **Save As** > **Dashboard Panel** > **Existing** > **Apache WebServer Monitoring** > **Create Title for Panel** > **Save as Cluster Map**
+
+7. Listing the top countries that visitied
+
+- `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | top limit=10 Country`
