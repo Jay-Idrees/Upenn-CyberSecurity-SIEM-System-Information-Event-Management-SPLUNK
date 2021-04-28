@@ -421,6 +421,8 @@ Fields are divided into **default fields** and **interesting fields**.
 
 # Analyzing Example Logs and Creating Reports Exercise
 
+## Splunk Analysis of a sample Windows Server Logs
+
 1. Here I am using the windows server logs file, analyzing the `signature` variable which documents activity with a particular user account such as lock out or delition, along with a `signature_id` that contains specific codes assigned to such events
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | table signature signature_id | dedup signature` The `dedup` command here removes the duplicates
@@ -463,4 +465,17 @@ Fields are divided into **default fields** and **interesting fields**.
 
 - `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top limit=10 signature`
 
-10. 
+10. Creating a bar chart for the top 10 user activity
+
+- `source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | top limit=10 user`
+
+On your dashboard, add the ability to change the time range for all your visualizations.
+
+**Linking Time Across Dashboard Panels**
+- On the Dashboard, select: **Edit** > **Add Input** > **Time**.
+
+- On each panel, select **Edit Search** > **Time Range: Select Shared Time Picker** > **Apply**.
+
+- Save the changes.
+
+## Splunk Analysis of Apache Web Server Logs
