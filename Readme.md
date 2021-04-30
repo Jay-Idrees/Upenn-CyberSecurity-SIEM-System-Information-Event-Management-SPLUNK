@@ -517,6 +517,6 @@ It appears that the average activity is about 80/hr and the threshold can be set
 
 **Save As** > **Dashboard Panel** > **Existing** > **Apache WebServer Monitoring** > **Create Title for Panel** > **Save as Cluster Map**
 
-8. Listing the top countries that visitied
+8. Listing the top countries that visitied. 
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | iplocation clientip | top limit=10 Country` you can save this as a statistics table
