@@ -426,11 +426,12 @@ Fields are divided into **default fields** and **interesting fields**.
 - Some key important variables to note when Splunking Web Server Logs
 
 ```diff
-- signature- e-g account lockout, deletion
+- signature- e-g account lockout, deletion or "account successfully loggged on"
+- signature_id - It is similar to the signature except that the events are coded with numbers
 
 + severity- e-g critical, high, intermediate or low risk vulnerabilities
 
-- status- e-g Similar to signature, can be use to specifically detect baseline failures
+- status- e-g Similar to signature, can be used to specifically detect baseline failures to log in by a user
 ```
 
 
