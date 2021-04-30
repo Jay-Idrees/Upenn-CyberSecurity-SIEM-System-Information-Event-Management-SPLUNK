@@ -427,7 +427,10 @@ Fields are divided into **default fields** and **interesting fields**.
 
 ```diff
 - signature- e-g account lockout, deletion
+
 + severity- e-g critical, high, intermediate or low risk vulnerabilities
+
+- status- e-g Similar to signature, can be use to specifically detect baseline failures
 ```
 
 
