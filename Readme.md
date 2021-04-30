@@ -426,7 +426,7 @@ Fields are divided into **default fields** and **interesting fields**.
 - Some key important variables to note when Splunking Web Server Logs
 
 ```diff
-signature- e-g account lockout, deletion
+- signature- e-g account lockout, deletion
 ```
 
 
