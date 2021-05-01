@@ -495,6 +495,22 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 ## Splunk Analysis of Apache Web Server Logs
 
+- Some key important variables to look for when splunking the Apache Server Logs
+
+``` diff
+
+- method - e-g the type of server requests: GET or POST
+
++ referer_domain - Contains the websites visited
+
+- status - Status in this type of log file refers to the HTML server response interms of success (200), error(400) etc
+
++ useragent - Information regarding the web browser, device type like Windows, MAC, iphone etc
+
+```
+
+
+
 1. Looking at the `method` variable to determine how many requests were `GET/POST` etc
 
 - `source="apache_logs.txt" host="Apache Webserver Logs" sourcetype="access_combined" | top method` and then save report. Notice that if I do not use limit, it will display all the options
