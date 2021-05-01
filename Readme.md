@@ -432,6 +432,9 @@ Fields are divided into **default fields** and **interesting fields**.
 + severity- e-g critical, high, intermediate or low risk vulnerabilities
 
 - status- e-g Similar to signature, can be used to specifically detect baseline failures to log in by a user
+
++ user - all the different users
+
 ```
 
 
