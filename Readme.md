@@ -507,6 +507,10 @@ On your dashboard, add the ability to change the time range for all your visuali
 
 + useragent - Information regarding the web browser, device type like Windows, MAC, iphone etc
 
+- clientip - ip address of the user/device connecting to the server
+
++ country
+
 ```
 
 
