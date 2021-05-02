@@ -34,6 +34,13 @@ Note: This is a public-facing windows server that VSI employees access.
 > 1) Creating a security rule to block all non-US based IP addresses. Application of this broad rulewill depend upon on whether or not there is significant coustomer base and whether or not the business will be significantly impacted with such broadscale blockage- For instance review of cluster map analysis indicates that there is less traffic from outside of the US
 
 > 2) Creating a security rule that will limit access to know ip addresses within the network
+
+
+
+
+
+
+
   
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
