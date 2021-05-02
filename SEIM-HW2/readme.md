@@ -58,9 +58,11 @@ Note: This is a public-facing windows server that VSI employees access.
 
 - The Ip address associated with this disproportionate increase in POST requests is 79.171.127.34 which is likely from Ukraine
 
+- `source="apache_attack_logs.txt" host="Apache_Attack_Logs" sourcetype="access_combined" | iplocation clientip |geostats count`
 
 - The iplocation and the geolocation queries confirm this by have over 2000 enries from a country in Europe, likely in the region of Ukraine
 
+![Geolocation Cluster Map](clustermap.png)
 
   
 #### Question 2
