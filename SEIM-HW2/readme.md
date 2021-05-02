@@ -28,6 +28,12 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
+
+> Answer
+
+> 1) Creating a security rule to block all non-US based IP addresses. Application of this broad rulewill depend upon on whether or not there is significant coustomer base and whether or not the business will be significantly impacted with such broadscale blockage- For instance review of cluster map analysis indicates that there is less traffic from outside of the US
+
+> 2) Creating a security rule that will limit access to know ip addresses within the network
   
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
@@ -63,6 +69,8 @@ Note: This is a public-facing windows server that VSI employees access.
 - The iplocation and the geolocation queries confirm this by have over 2000 enries from a country in Europe, likely in the region of Ukraine
 
 ![Geolocation Cluster Map](clustermap.png)
+
+
 
   
 #### Question 2
