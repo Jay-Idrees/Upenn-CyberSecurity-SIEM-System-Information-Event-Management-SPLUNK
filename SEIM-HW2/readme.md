@@ -50,7 +50,7 @@ Note: This is a public-facing windows server that VSI employees access.
 
 >Answer:
 
-> A Mitigation strategy would be to block all HTTP traffic from Ukraine or Russia where this particular attack seems to have originated form. See the cluster map below. Alternatively, since there is no significant reliance on foreign traffic, VSI can consider implementing even a broader policy of blocking all non-US web traffic with exceptions as needed
+> A Mitigation strategy would be to block all HTTP traffic from Ukraine e-g **`79.171.127.34`** was one of the suspicious IP addresses where this particular attack seems to have originated form. See the cluster map below. 
 
 
 >**Evidence of the attack**
@@ -84,7 +84,12 @@ Note: This is a public-facing windows server that VSI employees access.
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
-  
+
+> Answer
+> 1) Alternatively, since there is no significant reliance on foreign traffic, VSI can consider implementing even a broader policy of blocking all non-US/foreign web traffic with a few exceptions as needed
+
+> 2) Creating a security rule to block a traffic with a significanly higher byte count that would be suspiscious for an attack
+
 
 
 ### Guidelines for your Submission:
