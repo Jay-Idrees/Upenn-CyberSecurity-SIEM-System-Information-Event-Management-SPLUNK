@@ -38,6 +38,9 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
+
+> Answer
+
 > Creating a security rule that would allow only a limied number of "failed logins". The user can be locked out for only a small period of time e-g 5 minutes with a progressive increase in time after more than 3 attempts. In addition we can also implement a 'challange-response" test where a user is prompted to type in a word or some simple activity to ensure its a person and not an automated brute force attempt
 
 ### Part 2: Apache Webserver Attack:
