@@ -49,6 +49,10 @@ Note: This is a public-facing windows server that VSI employees access.
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
 >Answer:
+
+> A Mitigation strategy would be to block all HTTP traffic from Ukraine or Russia where this particular attack seems to have originated form. See the cluster map below. Alternatively, since there is no significant reliance on foreign traffic, VSI can consider implementing even a broader policy of blocking all non-US web traffic with exceptions as needed
+
+
 >**Evidence of the attack**
 > On Analysis of the Routine Apache logs and the Apache Attack logs reval the following:
 
@@ -62,7 +66,7 @@ Note: This is a public-facing windows server that VSI employees access.
 
 - `source="apache_attack_logs.txt" host="Apache_Attack_Logs" sourcetype="access_combined" | top method clientip`
 
-- The Ip address associated with this disproportionate increase in POST requests is 79.171.127.34 which is likely from Ukraine
+- The Ip address associated with this disproportionate increase in POST requests is **`79.171.127.34`** which is likely from **`Ukraine`**
 
 - `source="apache_attack_logs.txt" host="Apache_Attack_Logs" sourcetype="access_combined" | iplocation clientip |geostats count`
 
